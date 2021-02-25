@@ -1010,7 +1010,7 @@ COUNTRY = {
     },
     "uruguay": {"scope": {"montevideo": {"title": "Montevideo"}}, "title": "Uruguay"},
     "venezuela": {"scope": {"caracas": {"title": "Venezuela"}}, "title": "Venezuela"},
-    "vietnam": {"scope": {"vietnam": {"title": "Vietnam"}}, "title": "Vietnam",},
+    "vietnam": {"scope": {"vietnam": {"title": "Vietnam"}}, "title": "Vietnam"},
     "virgin_islands_us": {
         "scope": {"virgin": {"title": "Virgin Islands"}},
         "title": "Virgin Islands, US",

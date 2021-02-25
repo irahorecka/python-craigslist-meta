@@ -23,7 +23,7 @@ if __name__ == "__main__":
         url="https://github.com/irahorecka/python-craigslist-meta",
         py_modules=["craigslist_meta"],
         description="A simple API to traverse Craigslist endpoints",
-        long_description=open("README.rst").read(),
+        long_description=open("README.rst", encoding="utf-8").read(),
         license="MIT",
         classifiers=_classifiers,
         packages=find_packages(),
