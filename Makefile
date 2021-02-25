@@ -7,3 +7,6 @@ flake:
 
 pylint:
 	pylint ./*.py craigslist_meta/*.py;
+
+clean:
+	rm -rf ./python_craigslist_meta.egg-info ./dist ./build;
