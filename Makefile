@@ -1,9 +1,9 @@
 black:
-	black ./setup.py craigslist_meta/__init__.py craigslist_meta/api.py craigslist_meta/metadata.py;
-	rm -rf craigslist_meta/__pycache__
+	black ./*.py craigslist_meta/*.py;
+	rm -rf craigslist_meta/__pycache__;
 
 flake:
-	flake ./setup.py craigslist_meta/__init__.py craigslist_meta/api.py
+	flake8 ./*.py craigslist_meta/*.py;
 
 pylint:
-	pylint ./setup.py craigslist_meta/__init__.py craigslist_meta/api.py
+	pylint ./*.py craigslist_meta/*.py;
