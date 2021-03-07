@@ -1,4 +1,5 @@
 from .api import (
+    Continent,
     Country,
     Site,
 )

@@ -2,7 +2,7 @@ from . import metadata
 
 
 class Base:
-    """ Base class for Country, Site, and Area. """
+    """ Base class for Continent, Country, Site, and Area. """
 
     def __init__(self):
         self._arg = ""
@@ -31,27 +31,61 @@ class Base:
         except KeyError:
             yield from ()
 
+    @property
     def key(self):
         """ Return Craigslist url key of the instance. """
         return self._arg
 
+    @property
     def title(self):
         """ Return Craigslist title of the instance. """
         return self._location["title"]
 
 
+class Continent(Base):
+    """ Parse Craigslist by continent. """
+
+    def __init__(self, continent):
+        super().__init__()
+        self._arg = continent
+        self._location = metadata.CONTINENT[continent]
+        self._subclass = Country
+
+    def __iter__(self):
+        """ Yield Country instances within continent. """
+        yield from self._construct_all()
+
+    def country(self, country):
+        """ Constructor for a Country instance within continent's boundaries. """
+        return self._construct(country)
+
+    @classmethod
+    def all(cls):
+        """ Yield instances of every Continent on Craigslist. """
+        yield from (cls(key) for key in metadata.CONTINENT)
+
+
 class Country(Base):
     """ Parse Craigslist by country. """
 
-    def __init__(self, country):
+    def __init__(self, country, **kwargs):
         super().__init__()
-        self._arg = country
-        self._location = metadata.COUNTRY[country]
+        # Country provides two entry points, one through Continent.country as a dict
+        # (Base._construct(site_dict, scope=site_key)) and one through Country(country_key) as a str.
+        if isinstance(country, str):
+            self._arg = country
+            self._location = metadata.COUNTRY[country]
+        else:
+            # site is type dict
+            country_key = kwargs.get("scope")
+            self._arg = country_key
+            self._location = country[country_key]
+
         self._subclass = Site
 
     def __iter__(self):
         """ Yield Site instances within country. """
-        yield from self._construct_all()
+        yield from self._construct_all(parent_key=self._arg)
 
     def site(self, site):
         """ Constructor for a Site instance within country's boundaries. """
@@ -94,6 +128,7 @@ class Site(Base):
         'monterey' does not. """
         return bool(self._location.get("scope"))
 
+    @property
     def url(self):
         """ Return Craigslist url of site. """
         return "https://{}.craigslist.org/".format(self._arg)
