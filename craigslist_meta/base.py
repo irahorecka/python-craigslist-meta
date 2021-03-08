@@ -26,14 +26,14 @@ class Base:
     @classmethod
     def _iter_class(cls, _class, selector_key, key=""):
         """ Yield instances of `_class` instantiated by `key`, or if an empty string,
-        all instances of `selector_key`. """
+        all instances of `_class` instantiated by `selector_key`. """
         yield from (_class(class_key) for class_key in cls._unique_class_keys(selector_key, key))
 
     @classmethod
     def _unique_class_keys(cls, selector_key, key):
         """ Return a unique list of class instantiation `key`s as specified by `selector_key`.
         For example, if our `selector_key` is 'country' and  `key` is 'japan', we'll return ['japan'],
-        rather a list of eight `japan`s. If `key` is an empty string, return a unique list of keys
+        rather than a list of eight `japan`s. If `key` is an empty string, return a unique list of keys
         for all values of `selector_key`["key"]. """
         return list(
             {
