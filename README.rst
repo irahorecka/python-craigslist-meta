@@ -64,7 +64,7 @@ We can also work with countries. Let's find site urls in Germany.
     # https://dresden.craigslist.org/
     # ...
 
-Finally, let's get url keys and titles from sites in Japan.
+Let's get url keys and titles from sites in Japan.
 
 .. code:: python
 
@@ -79,6 +79,23 @@ Finally, let's get url keys and titles from sites in Japan.
     # hiroshima | 広島
     # nagoya | 名古屋
     # okinawa | 沖縄
+    # ...
+
+Finally, we can go a step further and work with continents. Let's get titles from countries in Africa.
+
+.. code:: python
+
+    from craigslist_meta import Continent
+
+    africa = Continent("africa")
+    for country in africa:
+        print(country.title)
+
+
+    # Egypt
+    # Ethiopia
+    # Ghana
+    # Kenya
     # ...
 
 Contribute
