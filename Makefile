@@ -1,5 +1,5 @@
 black:
-	black ./*.py craigslist_meta/*.py;
+	black --line-length=100 ./*.py craigslist_meta/*.py;
 	rm -rf craigslist_meta/__pycache__;
 
 flake:

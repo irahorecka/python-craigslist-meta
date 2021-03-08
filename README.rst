@@ -23,10 +23,10 @@ Find cars and trucks for sale from around the world. (Note: you must have ``pyth
     for site in Site.all():
         if site.has_area():
             for area in site:
-                auto = CraigslistForSale(site=site.key(), area=area.key(), category='cta')
+                auto = CraigslistForSale(site=site.key, area=area.key, category='cta')
                 # fetch posts from auto
         else:
-            auto = CraigslistForSale(site=site.key(), category='cta')
+            auto = CraigslistForSale(site=site.key, category='cta')
             # fetch posts from auto
 
 Let's get titles and urls from areas in the San Francisco Bay Area.
@@ -37,7 +37,7 @@ Let's get titles and urls from areas in the San Francisco Bay Area.
 
     sfbay = Site("sfbay")
     for area in sfbay:
-        print(area.title(), "|", area.url())
+        print(area.title, "|", area.url)
 
 
     # East Bay Area | https://sfbay.craigslist.org/eby/
@@ -55,7 +55,7 @@ We can also work with countries. Let's find site urls in Germany.
 
     germany = Country("germany")
     for site in germany:
-        print(site.url())
+        print(site.url)
 
 
     # https://berlin.craigslist.org/
@@ -64,7 +64,7 @@ We can also work with countries. Let's find site urls in Germany.
     # https://dresden.craigslist.org/
     # ...
 
-Finally, let's get url keys and titles from sites in Japan.
+Let's get url keys and titles from sites in Japan.
 
 .. code:: python
 
@@ -72,13 +72,30 @@ Finally, let's get url keys and titles from sites in Japan.
 
     japan = Country("japan")
     for site in japan:
-        print(site.key(), "|", site.title())
+        print(site.key, "|", site.title)
 
 
     # fukuoka | 福岡
     # hiroshima | 広島
     # nagoya | 名古屋
     # okinawa | 沖縄
+    # ...
+
+Finally, we can go a step further and work with continents. Let's get titles from countries in Africa.
+
+.. code:: python
+
+    from craigslist_meta import Continent
+
+    africa = Continent("africa")
+    for country in africa:
+        print(country.title)
+
+
+    # Egypt
+    # Ethiopia
+    # Ghana
+    # Kenya
     # ...
 
 Contribute
