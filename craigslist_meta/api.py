@@ -1,100 +1,45 @@
-from .metadata import CRAIGSLIST
+from .base import Base
 
 
-class Base:
-    """ Base class for Continent, Country, Site, and Area. """
+class Area(Base):
+    """ Parse Craigslist areas. """
 
-    def __init__(self):
-        self._key_selector = ""
-        self._key = ""
-        self._subclass_key = ""
-        self._subclass = None
+    _selector_key = "area"
 
-    def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, self._key)
+    def __init__(self, key):
+        self._key = key
 
-    def __len__(self):
-        return len(self._unique_subclass_keys())
-
-    def __iter__(self):
-        """ Yield unique instance(s) of caller's subclass if it exists.
-        Sublass instances are within scope of the caller's instance; for example,
-        `Continent('africa')` will yield all unique `Country` instances that are in Africa. """
-        yield from (self._subclass(subclass_key) for subclass_key in self._unique_subclass_keys())
-
-    def _unique_subclass_keys(self):
-        """ Return a list of unique keys within scope of the caller's instance.
-        For example, `Continent('africa')` will return ['egypt', 'ethiopia', 'ghana', ...] """
-        return list(
-            {
-                region[self._subclass_key]["key"]
-                for region in self._filter_tree()
-                if region.get(self._subclass_key)
-            }
-        )
-
-    def _filter_tree(self):
-        """ Yield a sequence of dictionaries that fulfill the
-        instance's filter as determined by its key. """
-        yield from filter(
-            lambda leaf: leaf.get(self._key_selector)
-            and leaf[self._key_selector]["key"] == self._key
-            if self._key
-            else leaf[self._key_selector]["key"],
-            CRAIGSLIST,
-        )
-
-    @property
-    def key(self):
-        """ Return key of the instance. """
-        return self._key
-
-    @property
-    def title(self):
-        """ Return title of the instance. """
-        return self._search_tree("title")
+    @staticmethod
+    def __iter__():
+        # `Area` does not have a subclass
+        yield from ()
 
     @property
     def url(self):
-        """ Return url of the instance if it exists. """
+        """ Return craigslist url of `Area` instance. """
         return self._search_tree("url")
 
-    def _search_tree(self, key):
-        """ Return value for `key` within the instance's filtered values. """
-        try:
-            return next(self._filter_tree())[self._key_selector].get(key)
-        except StopIteration:
-            return None
-
-
-class Continent(Base):
-    """ Parse Craiglist continents. """
-
-    def __init__(self, key=""):
-        self._key_selector = "continent"
-        self._key = key
-        self._subclass_key = "country"
-        self._subclass = Country
-
-
-class Country(Base):
-    """ Parse Craiglist countries. """
-
-    def __init__(self, key=""):
-        self._key_selector = "country"
-        self._key = key
-        self._subclass_key = "site"
-        self._subclass = Site
+    @staticmethod
+    def all():
+        """ Unlike `Continent`, `Country`, and `Site`, `Area` does not
+        have a subclass and therefore this method should be removed. """
+        raise NotImplementedError("type object 'Area' has no attribute 'all'")
 
 
 class Site(Base):
     """ Parse Craiglist sites. """
 
-    def __init__(self, key=""):
-        self._key_selector = "site"
+    _selector_key = "site"
+    _subclass_selector_key = "area"
+    _subclass = Area
+
+    def __init__(self, key):
         self._key = key
-        self._subclass_key = "area"
-        self._subclass = Area
+
+    @property
+    def url(self):
+        """ Return craigslist url of Site instance. """
+        return self._search_tree("url")
 
     def has_area(self):
         """ Boolean value for if site has areas. For example, `Site('sfbay')` has areas,
@@ -106,13 +51,23 @@ class Site(Base):
             return False
 
 
-class Area(Base):
-    """ Parse Craigslist areas. """
+class Country(Base):
+    """ Parse Craiglist countries. """
+
+    _selector_key = "country"
+    _subclass_selector_key = "site"
+    _subclass = Site
 
     def __init__(self, key):
-        self._key_selector = "area"
         self._key = key
 
-    @staticmethod
-    def __iter__():
-        yield from ()
+
+class Continent(Base):
+    """ Parse Craiglist continents. """
+
+    _selector_key = "continent"
+    _subclass_selector_key = "country"
+    _subclass = Country
+
+    def __init__(self, key):
+        self._key = key

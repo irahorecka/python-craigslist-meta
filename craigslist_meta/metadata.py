@@ -2,11 +2,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "africa", "title": "Africa"},
         "country": {"key": "egypt", "title": "Egypt"},
-        "site": {
-            "key": "cairo",
-            "title": "Egypt",
-            "url": "https://cairo.craigslist.org/",
-        },
+        "site": {"key": "cairo", "title": "Egypt", "url": "https://cairo.craigslist.org/",},
     },
     {
         "continent": {"key": "africa", "title": "Africa"},
@@ -20,20 +16,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "africa", "title": "Africa"},
         "country": {"key": "ghana", "title": "Ghana"},
-        "site": {
-            "key": "accra",
-            "title": "Ghana",
-            "url": "https://accra.craigslist.org/",
-        },
+        "site": {"key": "accra", "title": "Ghana", "url": "https://accra.craigslist.org/",},
     },
     {
         "continent": {"key": "africa", "title": "Africa"},
         "country": {"key": "kenya", "title": "Kenya"},
-        "site": {
-            "key": "kenya",
-            "title": "Kenya",
-            "url": "https://kenya.craigslist.org/",
-        },
+        "site": {"key": "kenya", "title": "Kenya", "url": "https://kenya.craigslist.org/",},
     },
     {
         "continent": {"key": "africa", "title": "Africa"},
@@ -56,11 +44,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "africa", "title": "Africa"},
         "country": {"key": "south_africa", "title": "South Africa"},
-        "site": {
-            "key": "durban",
-            "title": "Durban",
-            "url": "https://durban.craigslist.org/",
-        },
+        "site": {"key": "durban", "title": "Durban", "url": "https://durban.craigslist.org/",},
     },
     {
         "continent": {"key": "africa", "title": "Africa"},
@@ -83,11 +67,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "africa", "title": "Africa"},
         "country": {"key": "tunisia", "title": "Tunisia"},
-        "site": {
-            "key": "tunis",
-            "title": "Tunisia",
-            "url": "https://tunis.craigslist.org/",
-        },
+        "site": {"key": "tunis", "title": "Tunisia", "url": "https://tunis.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -101,11 +81,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "bolivia", "title": "Bolivia"},
-        "site": {
-            "key": "lapaz",
-            "title": "Bolivia",
-            "url": "https://lapaz.craigslist.org/",
-        },
+        "site": {"key": "lapaz", "title": "Bolivia", "url": "https://lapaz.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -155,20 +131,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "brazil", "title": "Brazil"},
-        "site": {
-            "key": "recife",
-            "title": "Recife",
-            "url": "https://recife.craigslist.org/",
-        },
+        "site": {"key": "recife", "title": "Recife", "url": "https://recife.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "brazil", "title": "Brazil"},
-        "site": {
-            "key": "rio",
-            "title": "Rio De Janeiro",
-            "url": "https://rio.craigslist.org/",
-        },
+        "site": {"key": "rio", "title": "Rio De Janeiro", "url": "https://rio.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -200,11 +168,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "barrie",
-            "title": "Barrie, ON",
-            "url": "https://barrie.craigslist.org/",
-        },
+        "site": {"key": "barrie", "title": "Barrie, ON", "url": "https://barrie.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -290,11 +254,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "guelph",
-            "title": "Guelph, ON",
-            "url": "https://guelph.craigslist.org/",
-        },
+        "site": {"key": "guelph", "title": "Guelph, ON", "url": "https://guelph.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -317,11 +277,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "hat",
-            "title": "Medicine Hat, AB",
-            "url": "https://hat.craigslist.org/",
-        },
+        "site": {"key": "hat", "title": "Medicine Hat, AB", "url": "https://hat.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -506,11 +462,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "regina",
-            "title": "Regina, SK",
-            "url": "https://regina.craigslist.org/",
-        },
+        "site": {"key": "regina", "title": "Regina, SK", "url": "https://regina.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -524,11 +476,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "sarnia",
-            "title": "Sarnia, ON",
-            "url": "https://sarnia.craigslist.org/",
-        },
+        "site": {"key": "sarnia", "title": "Sarnia, ON", "url": "https://sarnia.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -605,11 +553,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "toronto",
-            "title": "Toronto",
-            "url": "https://toronto.craigslist.org/",
-        },
+        "site": {"key": "toronto", "title": "Toronto", "url": "https://toronto.craigslist.org/",},
         "area": {
             "key": "bra",
             "title": "Brampton-Caledon",
@@ -619,11 +563,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "toronto",
-            "title": "Toronto",
-            "url": "https://toronto.craigslist.org/",
-        },
+        "site": {"key": "toronto", "title": "Toronto", "url": "https://toronto.craigslist.org/",},
         "area": {
             "key": "drh",
             "title": "Durham Region",
@@ -633,11 +573,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "toronto",
-            "title": "Toronto",
-            "url": "https://toronto.craigslist.org/",
-        },
+        "site": {"key": "toronto", "title": "Toronto", "url": "https://toronto.craigslist.org/",},
         "area": {
             "key": "mss",
             "title": "Mississauga",
@@ -647,11 +583,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "toronto",
-            "title": "Toronto",
-            "url": "https://toronto.craigslist.org/",
-        },
+        "site": {"key": "toronto", "title": "Toronto", "url": "https://toronto.craigslist.org/",},
         "area": {
             "key": "oak",
             "title": "Oakville-Milton",
@@ -661,11 +593,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "toronto",
-            "title": "Toronto",
-            "url": "https://toronto.craigslist.org/",
-        },
+        "site": {"key": "toronto", "title": "Toronto", "url": "https://toronto.craigslist.org/",},
         "area": {
             "key": "tor",
             "title": "City of Toronto",
@@ -675,11 +603,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "canada", "title": "Canada"},
-        "site": {
-            "key": "toronto",
-            "title": "Toronto",
-            "url": "https://toronto.craigslist.org/",
-        },
+        "site": {"key": "toronto", "title": "Toronto", "url": "https://toronto.craigslist.org/",},
         "area": {
             "key": "yrk",
             "title": "York Region",
@@ -818,11 +742,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "chile", "title": "Chile"},
-        "site": {
-            "key": "santiago",
-            "title": "Chile",
-            "url": "https://santiago.craigslist.org/",
-        },
+        "site": {"key": "santiago", "title": "Chile", "url": "https://santiago.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -854,11 +774,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "ecuador", "title": "Ecuador"},
-        "site": {
-            "key": "quito",
-            "title": "Ecuador",
-            "url": "https://quito.craigslist.org/",
-        },
+        "site": {"key": "quito", "title": "Ecuador", "url": "https://quito.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -971,29 +887,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "mexico", "title": "Mexico"},
-        "site": {
-            "key": "oaxaca",
-            "title": "Oaxaca",
-            "url": "https://oaxaca.craigslist.org/",
-        },
+        "site": {"key": "oaxaca", "title": "Oaxaca", "url": "https://oaxaca.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "mexico", "title": "Mexico"},
-        "site": {
-            "key": "puebla",
-            "title": "Puebla, MX",
-            "url": "https://puebla.craigslist.org/",
-        },
+        "site": {"key": "puebla", "title": "Puebla, MX", "url": "https://puebla.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "mexico", "title": "Mexico"},
-        "site": {
-            "key": "pv",
-            "title": "Puerto Vallarta",
-            "url": "https://pv.craigslist.org/",
-        },
+        "site": {"key": "pv", "title": "Puerto Vallarta", "url": "https://pv.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1025,20 +929,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "nicaragua", "title": "Nicaragua"},
-        "site": {
-            "key": "managua",
-            "title": "Nicaragua",
-            "url": "https://managua.craigslist.org/",
-        },
+        "site": {"key": "managua", "title": "Nicaragua", "url": "https://managua.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "panama", "title": "Panama"},
-        "site": {
-            "key": "panama",
-            "title": "Panama",
-            "url": "https://panama.craigslist.org/",
-        },
+        "site": {"key": "panama", "title": "Panama", "url": "https://panama.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1075,11 +971,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "albany",
-            "title": "Albany, NY",
-            "url": "https://albany.craigslist.org/",
-        },
+        "site": {"key": "albany", "title": "Albany, NY", "url": "https://albany.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1129,11 +1021,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "ames",
-            "title": "Ames, IA",
-            "url": "https://ames.craigslist.org/",
-        },
+        "site": {"key": "ames", "title": "Ames, IA", "url": "https://ames.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1229,11 +1117,7 @@ CRAIGSLIST = (
             "title": "Atlanta, GA",
             "url": "https://atlanta.craigslist.org/",
         },
-        "area": {
-            "key": "eat",
-            "title": "Otp East",
-            "url": "https://atlanta.craigslist.org/eat/",
-        },
+        "area": {"key": "eat", "title": "Otp East", "url": "https://atlanta.craigslist.org/eat/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1243,11 +1127,7 @@ CRAIGSLIST = (
             "title": "Atlanta, GA",
             "url": "https://atlanta.craigslist.org/",
         },
-        "area": {
-            "key": "nat",
-            "title": "Otp North",
-            "url": "https://atlanta.craigslist.org/nat/",
-        },
+        "area": {"key": "nat", "title": "Otp North", "url": "https://atlanta.craigslist.org/nat/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1257,11 +1137,7 @@ CRAIGSLIST = (
             "title": "Atlanta, GA",
             "url": "https://atlanta.craigslist.org/",
         },
-        "area": {
-            "key": "sat",
-            "title": "Otp South",
-            "url": "https://atlanta.craigslist.org/sat/",
-        },
+        "area": {"key": "sat", "title": "Otp South", "url": "https://atlanta.craigslist.org/sat/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1271,29 +1147,17 @@ CRAIGSLIST = (
             "title": "Atlanta, GA",
             "url": "https://atlanta.craigslist.org/",
         },
-        "area": {
-            "key": "wat",
-            "title": "Otp West",
-            "url": "https://atlanta.craigslist.org/wat/",
-        },
+        "area": {"key": "wat", "title": "Otp West", "url": "https://atlanta.craigslist.org/wat/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "auburn",
-            "title": "Auburn, AL",
-            "url": "https://auburn.craigslist.org/",
-        },
+        "site": {"key": "auburn", "title": "Auburn, AL", "url": "https://auburn.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "austin",
-            "title": "Austin, TX",
-            "url": "https://austin.craigslist.org/",
-        },
+        "site": {"key": "austin", "title": "Austin, TX", "url": "https://austin.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1361,11 +1225,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "bend",
-            "title": "Bend, OR",
-            "url": "https://bend.craigslist.org/",
-        },
+        "site": {"key": "bend", "title": "Bend, OR", "url": "https://bend.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1379,11 +1239,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "bham",
-            "title": "Birmingham, AL",
-            "url": "https://bham.craigslist.org/",
-        },
+        "site": {"key": "bham", "title": "Birmingham, AL", "url": "https://bham.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1442,52 +1298,28 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "bn",
-            "title": "Bloomington-Normal",
-            "url": "https://bn.craigslist.org/",
-        },
+        "site": {"key": "bn", "title": "Bloomington-Normal", "url": "https://bn.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "boise",
-            "title": "Boise, ID",
-            "url": "https://boise.craigslist.org/",
-        },
+        "site": {"key": "boise", "title": "Boise, ID", "url": "https://boise.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "boone",
-            "title": "Boone, NC",
-            "url": "https://boone.craigslist.org/",
-        },
+        "site": {"key": "boone", "title": "Boone, NC", "url": "https://boone.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "boston",
-            "title": "Boston",
-            "url": "https://boston.craigslist.org/",
-        },
-        "area": {
-            "key": "bmw",
-            "title": "Metro West",
-            "url": "https://boston.craigslist.org/bmw/",
-        },
+        "site": {"key": "boston", "title": "Boston", "url": "https://boston.craigslist.org/",},
+        "area": {"key": "bmw", "title": "Metro West", "url": "https://boston.craigslist.org/bmw/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "boston",
-            "title": "Boston",
-            "url": "https://boston.craigslist.org/",
-        },
+        "site": {"key": "boston", "title": "Boston", "url": "https://boston.craigslist.org/",},
         "area": {
             "key": "gbs",
             "title": "Boston/Cambridge/Brookline",
@@ -1497,11 +1329,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "boston",
-            "title": "Boston",
-            "url": "https://boston.craigslist.org/",
-        },
+        "site": {"key": "boston", "title": "Boston", "url": "https://boston.craigslist.org/",},
         "area": {
             "key": "nos",
             "title": "North Shore",
@@ -1511,11 +1339,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "boston",
-            "title": "Boston",
-            "url": "https://boston.craigslist.org/",
-        },
+        "site": {"key": "boston", "title": "Boston", "url": "https://boston.craigslist.org/",},
         "area": {
             "key": "nwb",
             "title": "Northwest/Merrimack",
@@ -1525,11 +1349,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "boston",
-            "title": "Boston",
-            "url": "https://boston.craigslist.org/",
-        },
+        "site": {"key": "boston", "title": "Boston", "url": "https://boston.craigslist.org/",},
         "area": {
             "key": "sob",
             "title": "South Shore",
@@ -1593,11 +1413,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "butte",
-            "title": "Butte, MT",
-            "url": "https://butte.craigslist.org/",
-        },
+        "site": {"key": "butte", "title": "Butte, MT", "url": "https://butte.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1647,11 +1463,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "cfl",
-            "title": "Heartland Florida",
-            "url": "https://cfl.craigslist.org/",
-        },
+        "site": {"key": "cfl", "title": "Heartland Florida", "url": "https://cfl.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1728,11 +1540,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "chicago",
-            "title": "Chicago",
-            "url": "https://chicago.craigslist.org/",
-        },
+        "site": {"key": "chicago", "title": "Chicago", "url": "https://chicago.craigslist.org/",},
         "area": {
             "key": "chc",
             "title": "City of Chicago",
@@ -1742,11 +1550,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "chicago",
-            "title": "Chicago",
-            "url": "https://chicago.craigslist.org/",
-        },
+        "site": {"key": "chicago", "title": "Chicago", "url": "https://chicago.craigslist.org/",},
         "area": {
             "key": "nch",
             "title": "North Chicagoland",
@@ -1756,11 +1560,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "chicago",
-            "title": "Chicago",
-            "url": "https://chicago.craigslist.org/",
-        },
+        "site": {"key": "chicago", "title": "Chicago", "url": "https://chicago.craigslist.org/",},
         "area": {
             "key": "nwc",
             "title": "Northwest Suburbs",
@@ -1770,11 +1570,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "chicago",
-            "title": "Chicago",
-            "url": "https://chicago.craigslist.org/",
-        },
+        "site": {"key": "chicago", "title": "Chicago", "url": "https://chicago.craigslist.org/",},
         "area": {
             "key": "nwi",
             "title": "Northwest Indiana",
@@ -1784,11 +1580,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "chicago",
-            "title": "Chicago",
-            "url": "https://chicago.craigslist.org/",
-        },
+        "site": {"key": "chicago", "title": "Chicago", "url": "https://chicago.craigslist.org/",},
         "area": {
             "key": "sox",
             "title": "South Chicagoland",
@@ -1798,11 +1590,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "chicago",
-            "title": "Chicago",
-            "url": "https://chicago.craigslist.org/",
-        },
+        "site": {"key": "chicago", "title": "Chicago", "url": "https://chicago.craigslist.org/",},
         "area": {
             "key": "wcl",
             "title": "West Chicagoland",
@@ -1812,11 +1600,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "chico",
-            "title": "Chico, CA",
-            "url": "https://chico.craigslist.org/",
-        },
+        "site": {"key": "chico", "title": "Chico, CA", "url": "https://chico.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1866,11 +1650,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "cnj",
-            "title": "Central Nj",
-            "url": "https://cnj.craigslist.org/",
-        },
+        "site": {"key": "cnj", "title": "Central Nj", "url": "https://cnj.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1970,11 +1750,7 @@ CRAIGSLIST = (
             "title": "Dallas / Fort Worth",
             "url": "https://dallas.craigslist.org/",
         },
-        "area": {
-            "key": "dal",
-            "title": "Dallas",
-            "url": "https://dallas.craigslist.org/dal/",
-        },
+        "area": {"key": "dal", "title": "Dallas", "url": "https://dallas.craigslist.org/dal/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1984,11 +1760,7 @@ CRAIGSLIST = (
             "title": "Dallas / Fort Worth",
             "url": "https://dallas.craigslist.org/",
         },
-        "area": {
-            "key": "ftw",
-            "title": "Fort Worth",
-            "url": "https://dallas.craigslist.org/ftw/",
-        },
+        "area": {"key": "ftw", "title": "Fort Worth", "url": "https://dallas.craigslist.org/ftw/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -1998,11 +1770,7 @@ CRAIGSLIST = (
             "title": "Dallas / Fort Worth",
             "url": "https://dallas.craigslist.org/",
         },
-        "area": {
-            "key": "mdf",
-            "title": "Mid Cities",
-            "url": "https://dallas.craigslist.org/mdf/",
-        },
+        "area": {"key": "mdf", "title": "Mid Cities", "url": "https://dallas.craigslist.org/mdf/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2012,11 +1780,7 @@ CRAIGSLIST = (
             "title": "Dallas / Fort Worth",
             "url": "https://dallas.craigslist.org/",
         },
-        "area": {
-            "key": "ndf",
-            "title": "North Dfw",
-            "url": "https://dallas.craigslist.org/ndf/",
-        },
+        "area": {"key": "ndf", "title": "North Dfw", "url": "https://dallas.craigslist.org/ndf/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2026,11 +1790,7 @@ CRAIGSLIST = (
             "title": "Dallas / Fort Worth",
             "url": "https://dallas.craigslist.org/",
         },
-        "area": {
-            "key": "sdf",
-            "title": "South Dfw",
-            "url": "https://dallas.craigslist.org/sdf/",
-        },
+        "area": {"key": "sdf", "title": "South Dfw", "url": "https://dallas.craigslist.org/sdf/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2071,11 +1831,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "denver",
-            "title": "Denver, CO",
-            "url": "https://denver.craigslist.org/",
-        },
+        "site": {"key": "denver", "title": "Denver, CO", "url": "https://denver.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2131,20 +1887,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "dothan",
-            "title": "Dothan, AL",
-            "url": "https://dothan.craigslist.org/",
-        },
+        "site": {"key": "dothan", "title": "Dothan, AL", "url": "https://dothan.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "dubuque",
-            "title": "Dubuque",
-            "url": "https://dubuque.craigslist.org/",
-        },
+        "site": {"key": "dubuque", "title": "Dubuque", "url": "https://dubuque.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2158,11 +1906,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "eastco",
-            "title": "Eastern Co",
-            "url": "https://eastco.craigslist.org/",
-        },
+        "site": {"key": "eastco", "title": "Eastern Co", "url": "https://eastco.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2194,11 +1938,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "eastnc",
-            "title": "Eastern Nc",
-            "url": "https://eastnc.craigslist.org/",
-        },
+        "site": {"key": "eastnc", "title": "Eastern Nc", "url": "https://eastnc.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2230,11 +1970,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "elko",
-            "title": "Elko, NV",
-            "url": "https://elko.craigslist.org/",
-        },
+        "site": {"key": "elko", "title": "Elko, NV", "url": "https://elko.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2248,38 +1984,22 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "elpaso",
-            "title": "El Paso, TX",
-            "url": "https://elpaso.craigslist.org/",
-        },
+        "site": {"key": "elpaso", "title": "El Paso, TX", "url": "https://elpaso.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "enid",
-            "title": "Northwest Ok",
-            "url": "https://enid.craigslist.org/",
-        },
+        "site": {"key": "enid", "title": "Northwest Ok", "url": "https://enid.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "erie",
-            "title": "Erie, PA",
-            "url": "https://erie.craigslist.org/",
-        },
+        "site": {"key": "erie", "title": "Erie, PA", "url": "https://erie.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "eugene",
-            "title": "Eugene, OR",
-            "url": "https://eugene.craigslist.org/",
-        },
+        "site": {"key": "eugene", "title": "Eugene, OR", "url": "https://eugene.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2665,11 +2385,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "helena",
-            "title": "Helena, MT",
-            "url": "https://helena.craigslist.org/",
-        },
+        "site": {"key": "helena", "title": "Helena, MT", "url": "https://helena.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2701,20 +2417,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "honolulu",
-            "title": "Hawaii",
-            "url": "https://honolulu.craigslist.org/",
-        },
+        "site": {"key": "honolulu", "title": "Hawaii", "url": "https://honolulu.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "houma",
-            "title": "Houma, LA",
-            "url": "https://houma.craigslist.org/",
-        },
+        "site": {"key": "houma", "title": "Houma, LA", "url": "https://houma.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2800,11 +2508,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "ithaca",
-            "title": "Ithaca, NY",
-            "url": "https://ithaca.craigslist.org/",
-        },
+        "site": {"key": "ithaca", "title": "Ithaca, NY", "url": "https://ithaca.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2863,11 +2567,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "joplin",
-            "title": "Joplin, MO",
-            "url": "https://joplin.craigslist.org/",
-        },
+        "site": {"key": "joplin", "title": "Joplin, MO", "url": "https://joplin.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2881,11 +2581,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "jxn",
-            "title": "Jackson, MI",
-            "url": "https://jxn.craigslist.org/",
-        },
+        "site": {"key": "jxn", "title": "Jackson, MI", "url": "https://jxn.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2926,11 +2622,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "keys",
-            "title": "Florida Keys",
-            "url": "https://keys.craigslist.org/",
-        },
+        "site": {"key": "keys", "title": "Florida Keys", "url": "https://keys.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2971,11 +2663,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "kokomo",
-            "title": "Kokomo, IN",
-            "url": "https://kokomo.craigslist.org/",
-        },
+        "site": {"key": "kokomo", "title": "Kokomo, IN", "url": "https://kokomo.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -2989,11 +2677,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "ksu",
-            "title": "Manhattan, KS",
-            "url": "https://ksu.craigslist.org/",
-        },
+        "site": {"key": "ksu", "title": "Manhattan, KS", "url": "https://ksu.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3061,11 +2745,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "laredo",
-            "title": "Laredo, TX",
-            "url": "https://laredo.craigslist.org/",
-        },
+        "site": {"key": "laredo", "title": "Laredo, TX", "url": "https://laredo.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3106,11 +2786,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "lawton",
-            "title": "Lawton, OK",
-            "url": "https://lawton.craigslist.org/",
-        },
+        "site": {"key": "lawton", "title": "Lawton, OK", "url": "https://lawton.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3160,11 +2836,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "logan",
-            "title": "Logan, UT",
-            "url": "https://logan.craigslist.org/",
-        },
+        "site": {"key": "logan", "title": "Logan, UT", "url": "https://logan.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3316,11 +2988,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "maine",
-            "title": "Maine",
-            "url": "https://maine.craigslist.org/",
-        },
+        "site": {"key": "maine", "title": "Maine", "url": "https://maine.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3415,11 +3083,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "merced",
-            "title": "Merced, CA",
-            "url": "https://merced.craigslist.org/",
-        },
+        "site": {"key": "merced", "title": "Merced, CA", "url": "https://merced.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3433,11 +3097,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "miami",
-            "title": "South Florida",
-            "url": "https://miami.craigslist.org/",
-        },
+        "site": {"key": "miami", "title": "South Florida", "url": "https://miami.craigslist.org/",},
         "area": {
             "key": "brw",
             "title": "Broward County",
@@ -3447,11 +3107,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "miami",
-            "title": "South Florida",
-            "url": "https://miami.craigslist.org/",
-        },
+        "site": {"key": "miami", "title": "South Florida", "url": "https://miami.craigslist.org/",},
         "area": {
             "key": "mdc",
             "title": "Miami / Dade County",
@@ -3563,11 +3219,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "mobile",
-            "title": "Mobile, AL",
-            "url": "https://mobile.craigslist.org/",
-        },
+        "site": {"key": "mobile", "title": "Mobile, AL", "url": "https://mobile.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3590,11 +3242,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "monroe",
-            "title": "Monroe, LA",
-            "url": "https://monroe.craigslist.org/",
-        },
+        "site": {"key": "monroe", "title": "Monroe, LA", "url": "https://monroe.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3707,20 +3355,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "nd",
-            "title": "North Dakota",
-            "url": "https://nd.craigslist.org/",
-        },
+        "site": {"key": "nd", "title": "North Dakota", "url": "https://nd.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "nesd",
-            "title": "Northeast Sd",
-            "url": "https://nesd.craigslist.org/",
-        },
+        "site": {"key": "nesd", "title": "Northeast Sd", "url": "https://nesd.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3766,11 +3406,7 @@ CRAIGSLIST = (
             "title": "New York City",
             "url": "https://newyork.craigslist.org/",
         },
-        "area": {
-            "key": "brk",
-            "title": "Brooklyn",
-            "url": "https://newyork.craigslist.org/brk/",
-        },
+        "area": {"key": "brk", "title": "Brooklyn", "url": "https://newyork.craigslist.org/brk/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3780,11 +3416,7 @@ CRAIGSLIST = (
             "title": "New York City",
             "url": "https://newyork.craigslist.org/",
         },
-        "area": {
-            "key": "brx",
-            "title": "Bronx",
-            "url": "https://newyork.craigslist.org/brx/",
-        },
+        "area": {"key": "brx", "title": "Bronx", "url": "https://newyork.craigslist.org/brx/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3836,11 +3468,7 @@ CRAIGSLIST = (
             "title": "New York City",
             "url": "https://newyork.craigslist.org/",
         },
-        "area": {
-            "key": "mnh",
-            "title": "Manhattan",
-            "url": "https://newyork.craigslist.org/mnh/",
-        },
+        "area": {"key": "mnh", "title": "Manhattan", "url": "https://newyork.craigslist.org/mnh/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3850,11 +3478,7 @@ CRAIGSLIST = (
             "title": "New York City",
             "url": "https://newyork.craigslist.org/",
         },
-        "area": {
-            "key": "que",
-            "title": "Queens",
-            "url": "https://newyork.craigslist.org/que/",
-        },
+        "area": {"key": "que", "title": "Queens", "url": "https://newyork.craigslist.org/que/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3887,20 +3511,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "nh",
-            "title": "New Hampshire",
-            "url": "https://nh.craigslist.org/",
-        },
+        "site": {"key": "nh", "title": "New Hampshire", "url": "https://nh.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "nmi",
-            "title": "Northern Michigan",
-            "url": "https://nmi.craigslist.org/",
-        },
+        "site": {"key": "nmi", "title": "Northern Michigan", "url": "https://nmi.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -3941,29 +3557,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "nwct",
-            "title": "Northwest Ct",
-            "url": "https://nwct.craigslist.org/",
-        },
+        "site": {"key": "nwct", "title": "Northwest Ct", "url": "https://nwct.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "nwga",
-            "title": "Northwest Ga",
-            "url": "https://nwga.craigslist.org/",
-        },
+        "site": {"key": "nwga", "title": "Northwest Ga", "url": "https://nwga.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "nwks",
-            "title": "Northwest Ks",
-            "url": "https://nwks.craigslist.org/",
-        },
+        "site": {"key": "nwks", "title": "Northwest Ks", "url": "https://nwks.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4130,11 +3734,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "peoria",
-            "title": "Peoria, IL",
-            "url": "https://peoria.craigslist.org/",
-        },
+        "site": {"key": "peoria", "title": "Peoria, IL", "url": "https://peoria.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4181,11 +3781,7 @@ CRAIGSLIST = (
             "title": "Phoenix, AZ",
             "url": "https://phoenix.craigslist.org/",
         },
-        "area": {
-            "key": "nph",
-            "title": "Phx North",
-            "url": "https://phoenix.craigslist.org/nph/",
-        },
+        "area": {"key": "nph", "title": "Phx North", "url": "https://phoenix.craigslist.org/nph/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4222,11 +3818,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "poconos",
-            "title": "Poconos",
-            "url": "https://poconos.craigslist.org/",
-        },
+        "site": {"key": "poconos", "title": "Poconos", "url": "https://poconos.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4356,20 +3948,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "provo",
-            "title": "Provo / Orem",
-            "url": "https://provo.craigslist.org/",
-        },
+        "site": {"key": "provo", "title": "Provo / Orem", "url": "https://provo.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "pueblo",
-            "title": "Pueblo, CO",
-            "url": "https://pueblo.craigslist.org/",
-        },
+        "site": {"key": "pueblo", "title": "Pueblo, CO", "url": "https://pueblo.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4392,11 +3976,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "quincy",
-            "title": "Western Il",
-            "url": "https://quincy.craigslist.org/",
-        },
+        "site": {"key": "quincy", "title": "Western Il", "url": "https://quincy.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4446,11 +4026,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "reno",
-            "title": "Reno / Tahoe",
-            "url": "https://reno.craigslist.org/",
-        },
+        "site": {"key": "reno", "title": "Reno / Tahoe", "url": "https://reno.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4536,20 +4112,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "salem",
-            "title": "Salem, OR",
-            "url": "https://salem.craigslist.org/",
-        },
+        "site": {"key": "salem", "title": "Salem, OR", "url": "https://salem.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "salina",
-            "title": "Salina, KS",
-            "url": "https://salina.craigslist.org/",
-        },
+        "site": {"key": "salina", "title": "Salina, KS", "url": "https://salina.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4709,11 +4277,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "sd",
-            "title": "South Dakota",
-            "url": "https://sd.craigslist.org/",
-        },
+        "site": {"key": "sd", "title": "South Dakota", "url": "https://sd.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4723,11 +4287,7 @@ CRAIGSLIST = (
             "title": "Seattle-Tacoma",
             "url": "https://seattle.craigslist.org/",
         },
-        "area": {
-            "key": "est",
-            "title": "Eastside",
-            "url": "https://seattle.craigslist.org/est/",
-        },
+        "area": {"key": "est", "title": "Eastside", "url": "https://seattle.craigslist.org/est/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4765,11 +4325,7 @@ CRAIGSLIST = (
             "title": "Seattle-Tacoma",
             "url": "https://seattle.craigslist.org/",
         },
-        "area": {
-            "key": "see",
-            "title": "Seattle",
-            "url": "https://seattle.craigslist.org/see/",
-        },
+        "area": {"key": "see", "title": "Seattle", "url": "https://seattle.craigslist.org/see/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4816,11 +4372,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "seks",
-            "title": "Southeast Ks",
-            "url": "https://seks.craigslist.org/",
-        },
+        "site": {"key": "seks", "title": "Southeast Ks", "url": "https://seks.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -4834,11 +4386,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "sfbay",
-            "title": "Sf Bay Area",
-            "url": "https://sfbay.craigslist.org/",
-        },
+        "site": {"key": "sfbay", "title": "Sf Bay Area", "url": "https://sfbay.craigslist.org/",},
         "area": {
             "key": "eby",
             "title": "East Bay Area",
@@ -4848,11 +4396,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "sfbay",
-            "title": "Sf Bay Area",
-            "url": "https://sfbay.craigslist.org/",
-        },
+        "site": {"key": "sfbay", "title": "Sf Bay Area", "url": "https://sfbay.craigslist.org/",},
         "area": {
             "key": "nby",
             "title": "North Bay / Marin",
@@ -4862,25 +4406,13 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "sfbay",
-            "title": "Sf Bay Area",
-            "url": "https://sfbay.craigslist.org/",
-        },
-        "area": {
-            "key": "pen",
-            "title": "Peninsula",
-            "url": "https://sfbay.craigslist.org/pen/",
-        },
+        "site": {"key": "sfbay", "title": "Sf Bay Area", "url": "https://sfbay.craigslist.org/",},
+        "area": {"key": "pen", "title": "Peninsula", "url": "https://sfbay.craigslist.org/pen/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "sfbay",
-            "title": "Sf Bay Area",
-            "url": "https://sfbay.craigslist.org/",
-        },
+        "site": {"key": "sfbay", "title": "Sf Bay Area", "url": "https://sfbay.craigslist.org/",},
         "area": {
             "key": "sby",
             "title": "South Bay Area",
@@ -4890,11 +4422,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "sfbay",
-            "title": "Sf Bay Area",
-            "url": "https://sfbay.craigslist.org/",
-        },
+        "site": {"key": "sfbay", "title": "Sf Bay Area", "url": "https://sfbay.craigslist.org/",},
         "area": {
             "key": "scz",
             "title": "Santa Cruz Co",
@@ -4904,11 +4432,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "sfbay",
-            "title": "Sf Bay Area",
-            "url": "https://sfbay.craigslist.org/",
-        },
+        "site": {"key": "sfbay", "title": "Sf Bay Area", "url": "https://sfbay.craigslist.org/",},
         "area": {
             "key": "sfc",
             "title": "City of San Francisco",
@@ -4981,20 +4505,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "slo",
-            "title": "San Luis Obispo",
-            "url": "https://slo.craigslist.org/",
-        },
+        "site": {"key": "slo", "title": "San Luis Obispo", "url": "https://slo.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "smd",
-            "title": "Southern Maryland",
-            "url": "https://smd.craigslist.org/",
-        },
+        "site": {"key": "smd", "title": "Southern Maryland", "url": "https://smd.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5143,11 +4659,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "swks",
-            "title": "Southwest Ks",
-            "url": "https://swks.craigslist.org/",
-        },
+        "site": {"key": "swks", "title": "Southwest Ks", "url": "https://swks.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5161,20 +4673,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "swv",
-            "title": "Southern Wv",
-            "url": "https://swv.craigslist.org/",
-        },
+        "site": {"key": "swv", "title": "Southern Wv", "url": "https://swv.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "swva",
-            "title": "Southwest Va",
-            "url": "https://swva.craigslist.org/",
-        },
+        "site": {"key": "swva", "title": "Southwest Va", "url": "https://swva.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5202,11 +4706,7 @@ CRAIGSLIST = (
             "title": "Tampa Bay Area",
             "url": "https://tampa.craigslist.org/",
         },
-        "area": {
-            "key": "hdo",
-            "title": "Hernando Co",
-            "url": "https://tampa.craigslist.org/hdo/",
-        },
+        "area": {"key": "hdo", "title": "Hernando Co", "url": "https://tampa.craigslist.org/hdo/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5230,11 +4730,7 @@ CRAIGSLIST = (
             "title": "Tampa Bay Area",
             "url": "https://tampa.craigslist.org/",
         },
-        "area": {
-            "key": "pnl",
-            "title": "Pinellas Co",
-            "url": "https://tampa.craigslist.org/pnl/",
-        },
+        "area": {"key": "pnl", "title": "Pinellas Co", "url": "https://tampa.craigslist.org/pnl/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5244,11 +4740,7 @@ CRAIGSLIST = (
             "title": "Tampa Bay Area",
             "url": "https://tampa.craigslist.org/",
         },
-        "area": {
-            "key": "psc",
-            "title": "Pasco Co",
-            "url": "https://tampa.craigslist.org/psc/",
-        },
+        "area": {"key": "psc", "title": "Pasco Co", "url": "https://tampa.craigslist.org/psc/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5271,20 +4763,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "texoma",
-            "title": "Texoma",
-            "url": "https://texoma.craigslist.org/",
-        },
+        "site": {"key": "texoma", "title": "Texoma", "url": "https://texoma.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "thumb",
-            "title": "The Thumb, MI",
-            "url": "https://thumb.craigslist.org/",
-        },
+        "site": {"key": "thumb", "title": "The Thumb, MI", "url": "https://thumb.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5298,20 +4782,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "toledo",
-            "title": "Toledo, OH",
-            "url": "https://toledo.craigslist.org/",
-        },
+        "site": {"key": "toledo", "title": "Toledo, OH", "url": "https://toledo.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "topeka",
-            "title": "Topeka, KS",
-            "url": "https://topeka.craigslist.org/",
-        },
+        "site": {"key": "topeka", "title": "Topeka, KS", "url": "https://topeka.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5325,20 +4801,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "tucson",
-            "title": "Tucson, AZ",
-            "url": "https://tucson.craigslist.org/",
-        },
+        "site": {"key": "tucson", "title": "Tucson, AZ", "url": "https://tucson.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "tulsa",
-            "title": "Tulsa, OK",
-            "url": "https://tulsa.craigslist.org/",
-        },
+        "site": {"key": "tulsa", "title": "Tulsa, OK", "url": "https://tulsa.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5379,11 +4847,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "up",
-            "title": "Upper Peninsula, MI",
-            "url": "https://up.craigslist.org/",
-        },
+        "site": {"key": "up", "title": "Upper Peninsula, MI", "url": "https://up.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5415,11 +4879,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "vermont",
-            "title": "Vermont",
-            "url": "https://vermont.craigslist.org/",
-        },
+        "site": {"key": "vermont", "title": "Vermont", "url": "https://vermont.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5442,11 +4902,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "waco",
-            "title": "Waco, TX",
-            "url": "https://waco.craigslist.org/",
-        },
+        "site": {"key": "waco", "title": "Waco, TX", "url": "https://waco.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5478,11 +4934,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "wausau",
-            "title": "Wausau, WI",
-            "url": "https://wausau.craigslist.org/",
-        },
+        "site": {"key": "wausau", "title": "Wausau, WI", "url": "https://wausau.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5505,11 +4957,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "westky",
-            "title": "Western Ky",
-            "url": "https://westky.craigslist.org/",
-        },
+        "site": {"key": "westky", "title": "Western Ky", "url": "https://westky.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5604,38 +5052,22 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "wv",
-            "title": "West Virginia (Old)",
-            "url": "https://wv.craigslist.org/",
-        },
+        "site": {"key": "wv", "title": "West Virginia (Old)", "url": "https://wv.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "wyoming",
-            "title": "Wyoming",
-            "url": "https://wyoming.craigslist.org/",
-        },
+        "site": {"key": "wyoming", "title": "Wyoming", "url": "https://wyoming.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "yakima",
-            "title": "Yakima, WA",
-            "url": "https://yakima.craigslist.org/",
-        },
+        "site": {"key": "yakima", "title": "Yakima, WA", "url": "https://yakima.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "york",
-            "title": "York, PA",
-            "url": "https://york.craigslist.org/",
-        },
+        "site": {"key": "york", "title": "York, PA", "url": "https://york.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5658,11 +5090,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "united_states", "title": "United States"},
-        "site": {
-            "key": "yuma",
-            "title": "Yuma, AZ",
-            "url": "https://yuma.craigslist.org/",
-        },
+        "site": {"key": "yuma", "title": "Yuma, AZ", "url": "https://yuma.craigslist.org/",},
     },
     {
         "continent": {"key": "americas", "title": "Americas"},
@@ -5685,11 +5113,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "americas", "title": "Americas"},
         "country": {"key": "venezuela", "title": "Venezuela"},
-        "site": {
-            "key": "caracas",
-            "title": "Venezuela",
-            "url": "https://caracas.craigslist.org/",
-        },
+        "site": {"key": "caracas", "title": "Venezuela", "url": "https://caracas.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -5793,20 +5217,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "china", "title": "China"},
-        "site": {
-            "key": "wuhan",
-            "title": "\u6b66\u6c49",
-            "url": "https://wuhan.craigslist.org/",
-        },
+        "site": {"key": "wuhan", "title": "\u6b66\u6c49", "url": "https://wuhan.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "china", "title": "China"},
-        "site": {
-            "key": "xian",
-            "title": "\u897f\u5b89",
-            "url": "https://xian.craigslist.org/",
-        },
+        "site": {"key": "xian", "title": "\u897f\u5b89", "url": "https://xian.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -5865,11 +5281,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "india", "title": "India"},
-        "site": {
-            "key": "delhi",
-            "title": "Delhi",
-            "url": "https://delhi.craigslist.org/",
-        },
+        "site": {"key": "delhi", "title": "Delhi", "url": "https://delhi.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -5888,29 +5300,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "india", "title": "India"},
-        "site": {
-            "key": "indore",
-            "title": "Indore",
-            "url": "https://indore.craigslist.org/",
-        },
+        "site": {"key": "indore", "title": "Indore", "url": "https://indore.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "india", "title": "India"},
-        "site": {
-            "key": "jaipur",
-            "title": "Jaipur",
-            "url": "https://jaipur.craigslist.org/",
-        },
+        "site": {"key": "jaipur", "title": "Jaipur", "url": "https://jaipur.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "india", "title": "India"},
-        "site": {
-            "key": "kerala",
-            "title": "Kerala",
-            "url": "https://kerala.craigslist.org/",
-        },
+        "site": {"key": "kerala", "title": "Kerala", "url": "https://kerala.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -5924,20 +5324,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "india", "title": "India"},
-        "site": {
-            "key": "lucknow",
-            "title": "Lucknow",
-            "url": "https://lucknow.craigslist.org/",
-        },
+        "site": {"key": "lucknow", "title": "Lucknow", "url": "https://lucknow.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "india", "title": "India"},
-        "site": {
-            "key": "mumbai",
-            "title": "Mumbai",
-            "url": "https://mumbai.craigslist.org/",
-        },
+        "site": {"key": "mumbai", "title": "Mumbai", "url": "https://mumbai.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -5947,47 +5339,27 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "india", "title": "India"},
-        "site": {
-            "key": "surat",
-            "title": "Surat Surat",
-            "url": "https://surat.craigslist.org/",
-        },
+        "site": {"key": "surat", "title": "Surat Surat", "url": "https://surat.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "indonesia", "title": "Indonesia"},
-        "site": {
-            "key": "jakarta",
-            "title": "Indonesia",
-            "url": "https://jakarta.craigslist.org/",
-        },
+        "site": {"key": "jakarta", "title": "Indonesia", "url": "https://jakarta.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "iran", "title": "Iran"},
-        "site": {
-            "key": "tehran",
-            "title": "Iran",
-            "url": "https://tehran.craigslist.org/",
-        },
+        "site": {"key": "tehran", "title": "Iran", "url": "https://tehran.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "iraq", "title": "Iraq"},
-        "site": {
-            "key": "baghdad",
-            "title": "Iraq",
-            "url": "https://baghdad.craigslist.org/",
-        },
+        "site": {"key": "baghdad", "title": "Iraq", "url": "https://baghdad.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "israel_and_palestine", "title": "Israel and Palestine"},
-        "site": {
-            "key": "haifa",
-            "title": "Haifa",
-            "url": "https://haifa.craigslist.org/",
-        },
+        "site": {"key": "haifa", "title": "Haifa", "url": "https://haifa.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -6010,11 +5382,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "israel_and_palestine", "title": "Israel and Palestine"},
-        "site": {
-            "key": "telaviv",
-            "title": "Tel Aviv",
-            "url": "https://telaviv.craigslist.org/",
-        },
+        "site": {"key": "telaviv", "title": "Tel Aviv", "url": "https://telaviv.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -6082,20 +5450,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "japan", "title": "Japan"},
-        "site": {
-            "key": "tokyo",
-            "title": "\u6771\u4eac",
-            "url": "https://tokyo.craigslist.org/",
-        },
+        "site": {"key": "tokyo", "title": "\u6771\u4eac", "url": "https://tokyo.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "kuwait", "title": "Kuwait"},
-        "site": {
-            "key": "kuwait",
-            "title": "Kuwait",
-            "url": "https://kuwait.craigslist.org/",
-        },
+        "site": {"key": "kuwait", "title": "Kuwait", "url": "https://kuwait.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -6127,20 +5487,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "bacolod",
-            "title": "Bacolod",
-            "url": "https://bacolod.craigslist.org/",
-        },
+        "site": {"key": "bacolod", "title": "Bacolod", "url": "https://bacolod.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "cdo",
-            "title": "Cagayan De Oro",
-            "url": "https://cdo.craigslist.org/",
-        },
+        "site": {"key": "cdo", "title": "Cagayan De Oro", "url": "https://cdo.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -6159,29 +5511,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "iloilo",
-            "title": "Iloilo",
-            "url": "https://iloilo.craigslist.org/",
-        },
+        "site": {"key": "iloilo", "title": "Iloilo", "url": "https://iloilo.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "manila",
-            "title": "Manila",
-            "url": "https://manila.craigslist.org/",
-        },
+        "site": {"key": "manila", "title": "Manila", "url": "https://manila.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "naga",
-            "title": "Bicol Region",
-            "url": "https://naga.craigslist.org/",
-        },
+        "site": {"key": "naga", "title": "Bicol Region", "url": "https://naga.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -6231,29 +5571,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "korea", "title": "Korea"},
-        "site": {
-            "key": "seoul",
-            "title": "Seoul",
-            "url": "https://seoul.craigslist.org/",
-        },
+        "site": {"key": "seoul", "title": "Seoul", "url": "https://seoul.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "taiwan", "title": "Taiwan"},
-        "site": {
-            "key": "taipei",
-            "title": "Taiwan",
-            "url": "https://taipei.craigslist.org/",
-        },
+        "site": {"key": "taipei", "title": "Taiwan", "url": "https://taipei.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "thailand", "title": "Thailand"},
-        "site": {
-            "key": "bangkok",
-            "title": "Thailand",
-            "url": "https://bangkok.craigslist.org/",
-        },
+        "site": {"key": "bangkok", "title": "Thailand", "url": "https://bangkok.craigslist.org/",},
     },
     {
         "continent": {"key": "asia", "title": "Asia"},
@@ -6276,29 +5604,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "asia", "title": "Asia"},
         "country": {"key": "vietnam", "title": "Vietnam"},
-        "site": {
-            "key": "vietnam",
-            "title": "Vietnam",
-            "url": "https://vietnam.craigslist.org/",
-        },
+        "site": {"key": "vietnam", "title": "Vietnam", "url": "https://vietnam.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "austria", "title": "Austria"},
-        "site": {
-            "key": "vienna",
-            "title": "Wien",
-            "url": "https://vienna.craigslist.org/",
-        },
+        "site": {"key": "vienna", "title": "Wien", "url": "https://vienna.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "belgium", "title": "Blegium"},
-        "site": {
-            "key": "brussels",
-            "title": "Belgium",
-            "url": "https://brussels.craigslist.org/",
-        },
+        "site": {"key": "brussels", "title": "Belgium", "url": "https://brussels.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6312,20 +5628,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "croatia", "title": "Croatia"},
-        "site": {
-            "key": "zagreb",
-            "title": "Croatia",
-            "url": "https://zagreb.craigslist.org/",
-        },
+        "site": {"key": "zagreb", "title": "Croatia", "url": "https://zagreb.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "czech_republic", "title": "Czech Republic"},
-        "site": {
-            "key": "prague",
-            "title": "Prague",
-            "url": "https://prague.craigslist.org/",
-        },
+        "site": {"key": "prague", "title": "Prague", "url": "https://prague.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6375,11 +5683,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "france", "title": "France"},
-        "site": {
-            "key": "lille",
-            "title": "Lille",
-            "url": "https://lille.craigslist.org/",
-        },
+        "site": {"key": "lille", "title": "Lille", "url": "https://lille.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6416,29 +5720,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "france", "title": "France"},
-        "site": {
-            "key": "paris",
-            "title": "Paris, FR",
-            "url": "https://paris.craigslist.org/",
-        },
+        "site": {"key": "paris", "title": "Paris, FR", "url": "https://paris.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "france", "title": "France"},
-        "site": {
-            "key": "rennes",
-            "title": "Bretagne",
-            "url": "https://rennes.craigslist.org/",
-        },
+        "site": {"key": "rennes", "title": "Bretagne", "url": "https://rennes.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "france", "title": "France"},
-        "site": {
-            "key": "rouen",
-            "title": "Normandie",
-            "url": "https://rouen.craigslist.org/",
-        },
+        "site": {"key": "rouen", "title": "Normandie", "url": "https://rouen.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6461,38 +5753,22 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "germany", "title": "Germany"},
-        "site": {
-            "key": "berlin",
-            "title": "Berlin",
-            "url": "https://berlin.craigslist.org/",
-        },
+        "site": {"key": "berlin", "title": "Berlin", "url": "https://berlin.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "germany", "title": "Germany"},
-        "site": {
-            "key": "bremen",
-            "title": "Bremen",
-            "url": "https://bremen.craigslist.org/",
-        },
+        "site": {"key": "bremen", "title": "Bremen", "url": "https://bremen.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "germany", "title": "Germany"},
-        "site": {
-            "key": "cologne",
-            "title": "K\u00f6ln",
-            "url": "https://cologne.craigslist.org/",
-        },
+        "site": {"key": "cologne", "title": "K\u00f6ln", "url": "https://cologne.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "germany", "title": "Germany"},
-        "site": {
-            "key": "dresden",
-            "title": "Dresden",
-            "url": "https://dresden.craigslist.org/",
-        },
+        "site": {"key": "dresden", "title": "Dresden", "url": "https://dresden.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6506,11 +5782,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "germany", "title": "Germany"},
-        "site": {
-            "key": "essen",
-            "title": "Essen / Ruhr",
-            "url": "https://essen.craigslist.org/",
-        },
+        "site": {"key": "essen", "title": "Essen / Ruhr", "url": "https://essen.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6524,11 +5796,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "germany", "title": "Germany"},
-        "site": {
-            "key": "hamburg",
-            "title": "Hamburg",
-            "url": "https://hamburg.craigslist.org/",
-        },
+        "site": {"key": "hamburg", "title": "Hamburg", "url": "https://hamburg.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6560,11 +5828,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "germany", "title": "Germany"},
-        "site": {
-            "key": "leipzig",
-            "title": "Leipzig",
-            "url": "https://leipzig.craigslist.org/",
-        },
+        "site": {"key": "leipzig", "title": "Leipzig", "url": "https://leipzig.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6596,11 +5860,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "greece", "title": "Greece"},
-        "site": {
-            "key": "athens",
-            "title": "Greece",
-            "url": "https://athens.craigslist.org/",
-        },
+        "site": {"key": "athens", "title": "Greece", "url": "https://athens.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6623,20 +5883,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "ireland", "title": "Ireland"},
-        "site": {
-            "key": "dublin",
-            "title": "Dublin, IE",
-            "url": "https://dublin.craigslist.org/",
-        },
+        "site": {"key": "dublin", "title": "Dublin, IE", "url": "https://dublin.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "italy", "title": "Italy"},
-        "site": {
-            "key": "bologna",
-            "title": "Bologna",
-            "url": "https://bologna.craigslist.org/",
-        },
+        "site": {"key": "bologna", "title": "Bologna", "url": "https://bologna.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6650,20 +5902,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "italy", "title": "Italy"},
-        "site": {
-            "key": "genoa",
-            "title": "Genova",
-            "url": "https://genoa.craigslist.org/",
-        },
+        "site": {"key": "genoa", "title": "Genova", "url": "https://genoa.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "italy", "title": "Italy"},
-        "site": {
-            "key": "milan",
-            "title": "Milano",
-            "url": "https://milan.craigslist.org/",
-        },
+        "site": {"key": "milan", "title": "Milano", "url": "https://milan.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6677,11 +5921,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "italy", "title": "Italy"},
-        "site": {
-            "key": "perugia",
-            "title": "Perugia",
-            "url": "https://perugia.craigslist.org/",
-        },
+        "site": {"key": "perugia", "title": "Perugia", "url": "https://perugia.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6700,20 +5940,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "italy", "title": "Italy"},
-        "site": {
-            "key": "sicily",
-            "title": "Sicilia",
-            "url": "https://sicily.craigslist.org/",
-        },
+        "site": {"key": "sicily", "title": "Sicilia", "url": "https://sicily.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "italy", "title": "Italy"},
-        "site": {
-            "key": "torino",
-            "title": "Torino",
-            "url": "https://torino.craigslist.org/",
-        },
+        "site": {"key": "torino", "title": "Torino", "url": "https://torino.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6745,47 +5977,27 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "norway", "title": "Norway"},
-        "site": {
-            "key": "oslo",
-            "title": "Norway",
-            "url": "https://oslo.craigslist.org/",
-        },
+        "site": {"key": "oslo", "title": "Norway", "url": "https://oslo.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "poland", "title": "Poland"},
-        "site": {
-            "key": "warsaw",
-            "title": "Poland",
-            "url": "https://warsaw.craigslist.org/",
-        },
+        "site": {"key": "warsaw", "title": "Poland", "url": "https://warsaw.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "portugal", "title": "Portugal"},
-        "site": {
-            "key": "faro",
-            "title": "Faro / Algarve",
-            "url": "https://faro.craigslist.org/",
-        },
+        "site": {"key": "faro", "title": "Faro / Algarve", "url": "https://faro.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "portugal", "title": "Portugal"},
-        "site": {
-            "key": "lisbon",
-            "title": "Lisboa",
-            "url": "https://lisbon.craigslist.org/",
-        },
+        "site": {"key": "lisbon", "title": "Lisboa", "url": "https://lisbon.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "portugal", "title": "Portugal"},
-        "site": {
-            "key": "porto",
-            "title": "Porto",
-            "url": "https://porto.craigslist.org/",
-        },
+        "site": {"key": "porto", "title": "Porto", "url": "https://porto.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6844,20 +6056,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "spain", "title": "Spain"},
-        "site": {
-            "key": "bilbao",
-            "title": "Bilbao",
-            "url": "https://bilbao.craigslist.org/",
-        },
+        "site": {"key": "bilbao", "title": "Bilbao", "url": "https://bilbao.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "spain", "title": "Spain"},
-        "site": {
-            "key": "cadiz",
-            "title": "C\u00e1diz",
-            "url": "https://cadiz.craigslist.org/",
-        },
+        "site": {"key": "cadiz", "title": "C\u00e1diz", "url": "https://cadiz.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6871,38 +6075,22 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "spain", "title": "Spain"},
-        "site": {
-            "key": "granada",
-            "title": "Granada",
-            "url": "https://granada.craigslist.org/",
-        },
+        "site": {"key": "granada", "title": "Granada", "url": "https://granada.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "spain", "title": "Spain"},
-        "site": {
-            "key": "madrid",
-            "title": "Madrid",
-            "url": "https://madrid.craigslist.org/",
-        },
+        "site": {"key": "madrid", "title": "Madrid", "url": "https://madrid.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "spain", "title": "Spain"},
-        "site": {
-            "key": "malaga",
-            "title": "M\u00e1laga",
-            "url": "https://malaga.craigslist.org/",
-        },
+        "site": {"key": "malaga", "title": "M\u00e1laga", "url": "https://malaga.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "spain", "title": "Spain"},
-        "site": {
-            "key": "sevilla",
-            "title": "Sevilla",
-            "url": "https://sevilla.craigslist.org/",
-        },
+        "site": {"key": "sevilla", "title": "Sevilla", "url": "https://sevilla.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6925,11 +6113,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "switzerland", "title": "Switzerland"},
-        "site": {
-            "key": "basel",
-            "title": "Basel",
-            "url": "https://basel.craigslist.org/",
-        },
+        "site": {"key": "basel", "title": "Basel", "url": "https://basel.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6939,11 +6123,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "switzerland", "title": "Switzerland"},
-        "site": {
-            "key": "geneva",
-            "title": "Gen\u00e8ve",
-            "url": "https://geneva.craigslist.org/",
-        },
+        "site": {"key": "geneva", "title": "Gen\u00e8ve", "url": "https://geneva.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6957,11 +6137,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "switzerland", "title": "Switzerland"},
-        "site": {
-            "key": "zurich",
-            "title": "Z\u00fcrich",
-            "url": "https://zurich.craigslist.org/",
-        },
+        "site": {"key": "zurich", "title": "Z\u00fcrich", "url": "https://zurich.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6975,11 +6151,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "ukraine", "title": "Ukraine"},
-        "site": {
-            "key": "ukraine",
-            "title": "Ukraine",
-            "url": "https://ukraine.craigslist.org/",
-        },
+        "site": {"key": "ukraine", "title": "Ukraine", "url": "https://ukraine.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -6993,20 +6165,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "bath",
-            "title": "Bath, UK",
-            "url": "https://bath.craigslist.org/",
-        },
+        "site": {"key": "bath", "title": "Bath, UK", "url": "https://bath.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "belfast",
-            "title": "Belfast",
-            "url": "https://belfast.craigslist.org/",
-        },
+        "site": {"key": "belfast", "title": "Belfast", "url": "https://belfast.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7029,11 +6193,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "bristol",
-            "title": "Bristol",
-            "url": "https://bristol.craigslist.org/",
-        },
+        "site": {"key": "bristol", "title": "Bristol", "url": "https://bristol.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7065,11 +6225,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "derby",
-            "title": "Derby, UK",
-            "url": "https://derby.craigslist.org/",
-        },
+        "site": {"key": "derby", "title": "Derby, UK", "url": "https://derby.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7083,11 +6239,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "dundee",
-            "title": "Dundee",
-            "url": "https://dundee.craigslist.org/",
-        },
+        "site": {"key": "dundee", "title": "Dundee", "url": "https://dundee.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7110,20 +6262,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "essex",
-            "title": "Essex, UK",
-            "url": "https://essex.craigslist.org/",
-        },
+        "site": {"key": "essex", "title": "Essex, UK", "url": "https://essex.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "glasgow",
-            "title": "Glasgow",
-            "url": "https://glasgow.craigslist.org/",
-        },
+        "site": {"key": "glasgow", "title": "Glasgow", "url": "https://glasgow.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7137,20 +6281,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "kent",
-            "title": "Kent, UK",
-            "url": "https://kent.craigslist.org/",
-        },
+        "site": {"key": "kent", "title": "Kent, UK", "url": "https://kent.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "leeds",
-            "title": "Leeds",
-            "url": "https://leeds.craigslist.org/",
-        },
+        "site": {"key": "leeds", "title": "Leeds", "url": "https://leeds.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7164,11 +6300,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "london",
-            "title": "London, UK",
-            "url": "https://london.craigslist.org/",
-        },
+        "site": {"key": "london", "title": "London, UK", "url": "https://london.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7209,11 +6341,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "europe", "title": "Europe"},
         "country": {"key": "united_kingdom", "title": "United Kingdom"},
-        "site": {
-            "key": "oxford",
-            "title": "Oxford, UK",
-            "url": "https://oxford.craigslist.org/",
-        },
+        "site": {"key": "oxford", "title": "Oxford, UK", "url": "https://oxford.craigslist.org/",},
     },
     {
         "continent": {"key": "europe", "title": "Europe"},
@@ -7227,29 +6355,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "middle east", "title": "Middle East"},
         "country": {"key": "egypt", "title": "Egypt"},
-        "site": {
-            "key": "cairo",
-            "title": "Egypt",
-            "url": "https://cairo.craigslist.org/",
-        },
+        "site": {"key": "cairo", "title": "Egypt", "url": "https://cairo.craigslist.org/",},
     },
     {
         "continent": {"key": "middle east", "title": "Middle East"},
         "country": {"key": "iraq", "title": "Iraq"},
-        "site": {
-            "key": "baghdad",
-            "title": "Iraq",
-            "url": "https://baghdad.craigslist.org/",
-        },
+        "site": {"key": "baghdad", "title": "Iraq", "url": "https://baghdad.craigslist.org/",},
     },
     {
         "continent": {"key": "middle east", "title": "Middle East"},
         "country": {"key": "israel_and_palestine", "title": "Israel and Palestine"},
-        "site": {
-            "key": "haifa",
-            "title": "Haifa",
-            "url": "https://haifa.craigslist.org/",
-        },
+        "site": {"key": "haifa", "title": "Haifa", "url": "https://haifa.craigslist.org/",},
     },
     {
         "continent": {"key": "middle east", "title": "Middle East"},
@@ -7272,20 +6388,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "middle east", "title": "Middle East"},
         "country": {"key": "israel_and_palestine", "title": "Israel and Palestine"},
-        "site": {
-            "key": "telaviv",
-            "title": "Tel Aviv",
-            "url": "https://telaviv.craigslist.org/",
-        },
+        "site": {"key": "telaviv", "title": "Tel Aviv", "url": "https://telaviv.craigslist.org/",},
     },
     {
         "continent": {"key": "middle east", "title": "Middle East"},
         "country": {"key": "kuwait", "title": "Kuwait"},
-        "site": {
-            "key": "kuwait",
-            "title": "Kuwait",
-            "url": "https://kuwait.craigslist.org/",
-        },
+        "site": {"key": "kuwait", "title": "Kuwait", "url": "https://kuwait.craigslist.org/",},
     },
     {
         "continent": {"key": "middle east", "title": "Middle East"},
@@ -7335,11 +6443,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "australia", "title": "Australia"},
-        "site": {
-            "key": "cairns",
-            "title": "Cairns, QLD",
-            "url": "https://cairns.craigslist.org/",
-        },
+        "site": {"key": "cairns", "title": "Cairns, QLD", "url": "https://cairns.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
@@ -7353,11 +6457,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "australia", "title": "Australia"},
-        "site": {
-            "key": "darwin",
-            "title": "Darwin, NT",
-            "url": "https://darwin.craigslist.org/",
-        },
+        "site": {"key": "darwin", "title": "Darwin, NT", "url": "https://darwin.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
@@ -7371,11 +6471,7 @@ CRAIGSLIST = (
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "australia", "title": "Australia"},
-        "site": {
-            "key": "hobart",
-            "title": "Tasmania",
-            "url": "https://hobart.craigslist.org/",
-        },
+        "site": {"key": "hobart", "title": "Tasmania", "url": "https://hobart.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
@@ -7389,29 +6485,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "australia", "title": "Australia"},
-        "site": {
-            "key": "ntl",
-            "title": "Newcastle, NSW",
-            "url": "https://ntl.craigslist.org/",
-        },
+        "site": {"key": "ntl", "title": "Newcastle, NSW", "url": "https://ntl.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "australia", "title": "Australia"},
-        "site": {
-            "key": "perth",
-            "title": "Perth, WA",
-            "url": "https://perth.craigslist.org/",
-        },
+        "site": {"key": "perth", "title": "Perth, WA", "url": "https://perth.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "australia", "title": "Australia"},
-        "site": {
-            "key": "sydney",
-            "title": "Sydney, NSW",
-            "url": "https://sydney.craigslist.org/",
-        },
+        "site": {"key": "sydney", "title": "Sydney, NSW", "url": "https://sydney.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
@@ -7470,20 +6554,12 @@ CRAIGSLIST = (
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "bacolod",
-            "title": "Bacolod",
-            "url": "https://bacolod.craigslist.org/",
-        },
+        "site": {"key": "bacolod", "title": "Bacolod", "url": "https://bacolod.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "cdo",
-            "title": "Cagayan De Oro",
-            "url": "https://cdo.craigslist.org/",
-        },
+        "site": {"key": "cdo", "title": "Cagayan De Oro", "url": "https://cdo.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
@@ -7502,29 +6578,17 @@ CRAIGSLIST = (
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "iloilo",
-            "title": "Iloilo",
-            "url": "https://iloilo.craigslist.org/",
-        },
+        "site": {"key": "iloilo", "title": "Iloilo", "url": "https://iloilo.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "manila",
-            "title": "Manila",
-            "url": "https://manila.craigslist.org/",
-        },
+        "site": {"key": "manila", "title": "Manila", "url": "https://manila.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
         "country": {"key": "philippines", "title": "Philippines"},
-        "site": {
-            "key": "naga",
-            "title": "Bicol Region",
-            "url": "https://naga.craigslist.org/",
-        },
+        "site": {"key": "naga", "title": "Bicol Region", "url": "https://naga.craigslist.org/",},
     },
     {
         "continent": {"key": "oceania", "title": "Oceania"},
