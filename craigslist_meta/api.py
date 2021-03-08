@@ -1,153 +1,118 @@
-from . import metadata
+from .metadata import CRAIGSLIST
 
 
 class Base:
     """ Base class for Continent, Country, Site, and Area. """
 
     def __init__(self):
-        self._arg = ""
-        self._parent_key = ""
-        self._location = {}
+        self._key_selector = ""
+        self._key = ""
+        self._subclass_key = ""
         self._subclass = None
 
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, self._arg)
+        return "{}('{}')".format(self.__class__.__name__, self._key)
 
-    def _construct(self, key, parent_key=""):
-        """ Return an instance of caller's subclass if it exists. """
-        if isinstance(self._location["scope"], dict):
-            return self._subclass(
-                self._location["scope"], scope=key, parent_key=parent_key
-            )
-        return None
+    def __len__(self):
+        return len(self._unique_subclass_keys())
 
-    def _construct_all(self, parent_key=""):
-        """ Yield instances of every subclass in its category. """
-        try:
-            yield from (
-                self._construct(key, parent_key=parent_key)
-                for key in self._location["scope"]
-            )
-        except KeyError:
-            yield from ()
+    def __iter__(self):
+        """ Yield unique instance(s) of caller's subclass if it exists.
+        Sublass instances are within scope of the caller's instance; for example,
+        `Continent('africa')` will yield all unique `Country` instances that are in Africa. """
+        yield from (self._subclass(subclass_key) for subclass_key in self._unique_subclass_keys())
+
+    def _unique_subclass_keys(self):
+        """ Return a list of unique keys within scope of the caller's instance.
+        For example, `Continent('africa')` will return ['egypt', 'ethiopia', 'ghana', ...] """
+        return list(
+            {
+                region[self._subclass_key]["key"]
+                for region in self._filter_tree()
+                if region.get(self._subclass_key)
+            }
+        )
+
+    def _filter_tree(self):
+        """ Yield a sequence of dictionaries that fulfill the
+        instance's filter as determined by its key. """
+        yield from filter(
+            lambda leaf: leaf.get(self._key_selector)
+            and leaf[self._key_selector]["key"] == self._key
+            if self._key
+            else leaf[self._key_selector]["key"],
+            CRAIGSLIST,
+        )
 
     @property
     def key(self):
-        """ Return Craigslist url key of the instance. """
-        return self._arg
+        """ Return key of the instance. """
+        return self._key
 
     @property
     def title(self):
-        """ Return Craigslist title of the instance. """
-        return self._location["title"]
+        """ Return title of the instance. """
+        return self._search_tree("title")
+
+    @property
+    def url(self):
+        """ Return url of the instance if it exists. """
+        return self._search_tree("url")
+
+    def _search_tree(self, key):
+        """ Return value for `key` within the instance's filtered values. """
+        try:
+            return next(self._filter_tree())[self._key_selector].get(key)
+        except StopIteration:
+            return None
 
 
 class Continent(Base):
-    """ Parse Craigslist by continent. """
+    """ Parse Craiglist continents. """
 
-    def __init__(self, continent):
-        super().__init__()
-        self._arg = continent
-        self._location = metadata.CONTINENT[continent]
+    def __init__(self, key=""):
+        self._key_selector = "continent"
+        self._key = key
+        self._subclass_key = "country"
         self._subclass = Country
-
-    def __iter__(self):
-        """ Yield Country instances within continent. """
-        yield from self._construct_all()
-
-    def country(self, country):
-        """ Constructor for a Country instance within continent's boundaries. """
-        return self._construct(country)
-
-    @classmethod
-    def all(cls):
-        """ Yield instances of every Continent on Craigslist. """
-        yield from (cls(key) for key in metadata.CONTINENT)
 
 
 class Country(Base):
-    """ Parse Craigslist by country. """
+    """ Parse Craiglist countries. """
 
-    def __init__(self, country, **kwargs):
-        super().__init__()
-        # Country provides two entry points, one through Continent.country as a dict
-        # (Base._construct(site_dict, scope=site_key)) and one through Country(country_key) as a str.
-        if isinstance(country, str):
-            self._arg = country
-            self._location = metadata.COUNTRY[country]
-        else:
-            # site is type dict
-            country_key = kwargs.get("scope")
-            self._arg = country_key
-            self._location = country[country_key]
-
+    def __init__(self, key=""):
+        self._key_selector = "country"
+        self._key = key
+        self._subclass_key = "site"
         self._subclass = Site
-
-    def __iter__(self):
-        """ Yield Site instances within country. """
-        yield from self._construct_all(parent_key=self._arg)
-
-    def site(self, site):
-        """ Constructor for a Site instance within country's boundaries. """
-        return self._construct(site)
-
-    @classmethod
-    def all(cls):
-        """ Yield instances of every Country on Craigslist. """
-        yield from (cls(key) for key in metadata.COUNTRY)
 
 
 class Site(Base):
     """ Parse Craiglist sites. """
 
-    def __init__(self, site, **kwargs):
-        super().__init__()
-        # Site provides two entry points, one through Country.site as a dict
-        # (Base._construct(site_dict, scope=site_key)) and one through Site(site_key) as a str.
-        if isinstance(site, str):
-            self._arg = site
-            self._location = metadata.SITE[site]
-        else:
-            # site is type dict
-            site_key = kwargs.get("scope")
-            self._arg = site_key
-            self._location = site[site_key]
-
+    def __init__(self, key=""):
+        self._key_selector = "site"
+        self._key = key
+        self._subclass_key = "area"
         self._subclass = Area
 
-    def __iter__(self):
-        """ Yield Area instances within site. """
-        yield from self._construct_all(parent_key=self._arg)
-
-    def area(self, area):
-        """ Constructor for Area instances within site's boundaries. """
-        return self._construct(area, parent_key=self._arg)
-
     def has_area(self):
-        """ Boolean value for if site has areas. For example, 'sfbay' has areas,
-        'monterey' does not. """
-        return bool(self._location.get("scope"))
-
-    @property
-    def url(self):
-        """ Return Craigslist url of site. """
-        return "https://{}.craigslist.org/".format(self._arg)
-
-    @classmethod
-    def all(cls):
-        """ Yield instances of every Site on Craigslist. """
-        yield from (cls(key) for key in metadata.SITE)
+        """ Boolean value for if site has areas. For example, `Site('sfbay')` has areas,
+        `Site('monterey')` does not. """
+        try:
+            next(self.__iter__())
+            return True
+        except StopIteration:
+            return False
 
 
 class Area(Base):
-    """ Parse Craigslist areas within a site. """
+    """ Parse Craigslist areas. """
 
-    def __init__(self, area, **kwargs):
-        super().__init__()
-        self._arg = kwargs["scope"]
-        self._parent_key = kwargs["parent_key"]
-        self._location = area[kwargs["scope"]]
+    def __init__(self, key):
+        self._key_selector = "area"
+        self._key = key
 
-    def url(self):
-        """ Return Craigslist url of area. """
-        return "https://{}.craigslist.org/{}/".format(self._parent_key, self._arg)
+    @staticmethod
+    def __iter__():
+        yield from ()
