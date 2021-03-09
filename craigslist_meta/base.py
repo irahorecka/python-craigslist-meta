@@ -11,7 +11,7 @@ class Base:
         self._key = ""
 
     def __repr__(self):
-        return "{}('{}')".format(self.__class__.__name__, self._key)
+        return "%s('%s')" % (self.__class__.__name__, self._key)
 
     def __iter__(self):
         """ Yield instance(s) of caller's subclass. Sublass instances are within scope
@@ -96,5 +96,5 @@ def find_url(tree, selector, datum):
 def build_url(selector, child_key, parent_key=""):
     """ Return url string that's conditional to `selector` ('site' or 'area'). """
     if selector == "site":
-        return f"https://{child_key}.craigslist.org/"
-    return f"https://{parent_key}.craigslist.org/{child_key}/"
+        return "https://%s.craigslist.org/" % child_key
+    return "https://%s.craigslist.org/%s/" % (parent_key, child_key)
