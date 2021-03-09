@@ -81,13 +81,13 @@ Let's get url keys and titles from sites in Japan.
     # okinawa | 沖縄
     # ...
 
-Finally, we can go a step further and work with continents. Let's get titles from countries in Africa.
+Finally, we can go a step further and work with regions. Let's get titles from countries in Africa.
 
 .. code:: python
 
-    from craigslist_meta import Continent
+    from craigslist_meta import Region
 
-    africa = Continent("africa")
+    africa = Region("africa")
     for country in africa:
         print(country.title)
 
