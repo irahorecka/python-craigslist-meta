@@ -43,7 +43,7 @@ class Base:
 
 
 def find_all(tree, selector):
-    """ Yield all keys that match tree's 'selector' value. """
+    """ Yield all keys that match tree's 'selector'. """
     for element, subtree in tree.items():
         if subtree["selector"] == selector:
             yield element
@@ -52,7 +52,7 @@ def find_all(tree, selector):
 
 
 def find_children(tree, selector, datum):
-    """ Yield all unique children keys that match tree's 'selector' value. """
+    """ Yield all unique children keys that match tree's 'selector'. """
 
     def recurse_children(tree_, selector_, datum_):
         """ Recurse tree and yield selected children. """
@@ -66,7 +66,7 @@ def find_children(tree, selector, datum):
 
 
 def find_title(tree, selector, datum):
-    """ Return 'title' value that match tree's 'selector' and element values. """
+    """ Return 'title' value that matches tree's 'selector' and element. """
 
     def recurse_title(tree_, selector_, datum_):
         """ Recurse tree and yield selected title. """
@@ -80,7 +80,7 @@ def find_title(tree, selector, datum):
 
 
 def find_url(tree, selector, datum):
-    """ Return url that match tree's 'selector' and element values. """
+    """ Return url that matches tree's 'selector' and element. """
 
     def recurse_url(tree_, selector_, datum_, parent=""):
         """ Recurse tree and yield selected url. """
@@ -94,9 +94,7 @@ def find_url(tree, selector, datum):
 
 
 def build_url(selector, child_key, parent_key=""):
-    """ Return url string conditional to `selector` value ('site' or 'area'). """
-    if selector == "area":
-        return f"https://{parent_key}.craigslist.org/{child_key}/"
-    elif selector == "site":
+    """ Return url string that's conditional to `selector` ('site' or 'area'). """
+    if selector == "site":
         return f"https://{child_key}.craigslist.org/"
-    raise ValueError("selector must have value 'site' or 'area'")
+    return f"https://{parent_key}.craigslist.org/{child_key}/"

@@ -31,7 +31,7 @@ class Site(Base):
         self._key = key
 
     def has_area(self):
-        """ Boolean value for if site has areas. For example, `Site('sfbay')` has areas,
+        """ Return true if site has areas. For example, `Site('sfbay')` has areas,
         `Site('monterey')` does not. """
         try:
             next(self.__iter__())
