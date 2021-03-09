@@ -17,7 +17,7 @@ class Area(Base):
     @staticmethod
     def all():
         """ Unlike `Region`, `Country`, and `Site`, `Area` does not
-        have a subclass and therefore this method should be removed. """
+        have a subclass - therefore, `Area.all()` should be invalidated. """
         raise NotImplementedError("type object 'Area' has no attribute 'all'")
 
 
@@ -52,7 +52,7 @@ class Country(Base):
     @property
     def url(self):
         """ Unlike `Site` and `Area`, `Country` does not have a url -
-        therefore, `Base.url()` should be silenced. """
+        therefore, `Country.url()` should be invalidated. """
         raise NotImplementedError("type object 'Country' has no attribute 'url'")
 
 
@@ -68,5 +68,5 @@ class Region(Base):
     @property
     def url(self):
         """ Unlike `Site` and `Area`, `Region` does not have a url -
-        therefore, `Base.url()` should be silenced. """
+        therefore, `Region.url()` should be invalidated. """
         raise NotImplementedError("type object 'Region' has no attribute 'url'")
