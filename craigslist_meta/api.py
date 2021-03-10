@@ -1,5 +1,4 @@
 from .base import Base
-from .metadata import REGIONS, COUNTRIES, SITES
 
 
 class Area(Base):
