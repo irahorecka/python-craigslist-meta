@@ -1,14 +1,22 @@
-from .metadata import CRAIGSLIST
+from .metadata import CRAIGSLIST, REGIONS, COUNTRIES, SITES, AREAS
 
 
 class Base:
-    """ Base class for `Region`, `Country`, `Site`, and `Area` in api.py. """
+    """ Base class for Region, Country, Site, and Area in api.py. """
 
     _selector_key = ""
     _subclass = None
+    _valid_keys = {
+        "region": REGIONS,
+        "country": COUNTRIES,
+        "site": SITES,
+        "area": AREAS,
+    }
 
-    def __init__(self):
-        self._key = ""
+    def __init__(self, key):
+        if key not in self._valid_keys[self._selector_key]:
+            raise ValueError("invalid key: '%s'" % key)
+        self._key = key
 
     def __repr__(self):
         return "%s('%s')" % (self.__class__.__name__, self._key)
@@ -94,7 +102,7 @@ def find_url(tree, selector, datum):
 
 
 def build_url(selector, child_key, parent_key=""):
-    """ Return url string that's conditional to `selector` ('site' or 'area'). """
+    """ Return url string that's conditional to selector ('site' or 'area'). """
     if selector == "site":
         return "https://%s.craigslist.org/" % child_key
     return "https://%s.craigslist.org/%s/" % (parent_key, child_key)

@@ -1,4 +1,5 @@
 from .base import Base
+from .metadata import REGIONS, COUNTRIES, SITES
 
 
 class Area(Base):
@@ -7,18 +8,17 @@ class Area(Base):
     _selector_key = "area"
 
     def __init__(self, key):
-        self._key = key
+        super().__init__(key)
 
-    @staticmethod
-    def __iter__():
-        # `Area` does not have a subclass
+    def __iter__(self):
+        # Area does not have a subclass
         yield from ()
 
     @staticmethod
     def all():
-        """ Unlike `Region`, `Country`, and `Site`, `Area` does not
-        have a subclass - therefore, `Area.all()` should be invalidated. """
-        raise NotImplementedError("type object 'Area' has no attribute 'all'")
+        """ Unlike Region, Country, and Site, Area does not
+        have a subclass - therefore, Area.all() should be invalidated. """
+        raise AttributeError("'Area' object has no attribute 'all'")
 
 
 class Site(Base):
@@ -28,11 +28,11 @@ class Site(Base):
     _subclass = Area
 
     def __init__(self, key):
-        self._key = key
+        super().__init__(key)
 
     def has_area(self):
-        """ Return true if site has areas. For example, `Site('sfbay')` has areas,
-        `Site('monterey')` does not. """
+        """ Return true if site has areas. For example, Site('sfbay') has areas,
+        Site('monterey') does not. """
         try:
             next(self.__iter__())
             return True
@@ -47,13 +47,13 @@ class Country(Base):
     _subclass = Site
 
     def __init__(self, key):
-        self._key = key
+        super().__init__(key)
 
     @property
     def url(self):
-        """ Unlike `Site` and `Area`, `Country` does not have a url -
-        therefore, `Country.url()` should be invalidated. """
-        raise NotImplementedError("type object 'Country' has no attribute 'url'")
+        """ Unlike Site and Area, Country does not have a url -
+        therefore, Country.url attribute should be invalidated. """
+        raise AttributeError("'Country' object has no attribute 'url'")
 
 
 class Region(Base):
@@ -63,10 +63,10 @@ class Region(Base):
     _subclass = Country
 
     def __init__(self, key):
-        self._key = key
+        super().__init__(key)
 
     @property
     def url(self):
-        """ Unlike `Site` and `Area`, `Region` does not have a url -
-        therefore, `Region.url()` should be invalidated. """
-        raise NotImplementedError("type object 'Region' has no attribute 'url'")
+        """ Unlike Site and Area, Region does not have a url -
+        therefore, Region.url attribute should be invalidated. """
+        raise AttributeError("'Region' object has no attribute 'url'")
