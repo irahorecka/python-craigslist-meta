@@ -13,7 +13,7 @@ Installation
 Examples
 --------
 
-Find cars and trucks for sale from around the world. ``python-craigslist`` is required for this example.
+Let's find every car and truck for sale around the world. ``python-craigslist`` is required for this example.
 
 .. code:: python
 
@@ -29,7 +29,7 @@ Find cars and trucks for sale from around the world. ``python-craigslist`` is re
             auto = CraigslistForSale(site=site.key, category='cta')
             # fetch posts from auto
 
-Let's get titles and urls of areas in the San Francisco Bay Area.
+Let's get Craigslist urls of areas in the San Francisco Bay Area.
 
 .. code-block:: python
 
@@ -37,17 +37,17 @@ Let's get titles and urls of areas in the San Francisco Bay Area.
 
     sfbay = Site("sfbay")
     for area in sfbay:
-        print(area.title, "|", area.url)
+        print(area.url)
 
 
-    # East Bay Area | https://sfbay.craigslist.org/eby/
-    # North Bay / Marin | https://sfbay.craigslist.org/nby/
-    # Peninsula | https://sfbay.craigslist.org/pen/
-    # South Bay Area | https://sfbay.craigslist.org/sby/
+    # https://sfbay.craigslist.org/eby/
+    # https://sfbay.craigslist.org/nby/
+    # https://sfbay.craigslist.org/pen/
+    # https://sfbay.craigslist.org/sby/
     # ...
 
 
-We can also work with countries. Let's get Craigslist urls in Germany.
+We can also work with countries. Let's get site keys in Germany.
 
 .. code:: python
 
@@ -55,16 +55,16 @@ We can also work with countries. Let's get Craigslist urls in Germany.
 
     germany = Country("germany")
     for site in germany:
-        print(site.url)
+        print(site.key)
 
 
-    # https://berlin.craigslist.org/
-    # https://bremen.craigslist.org/
-    # https://cologne.craigslist.org/
-    # https://dresden.craigslist.org/
+    # berlin
+    # bremen
+    # cologne
+    # dresden
     # ...
 
-Let's get url keys and titles of sites in Japan.
+Let's get titles of sites in Japan.
 
 .. code:: python
 
@@ -72,31 +72,26 @@ Let's get url keys and titles of sites in Japan.
 
     japan = Country("japan")
     for site in japan:
-        print(site.key, "|", site.title)
+        print(site.title)
 
 
-    # fukuoka | 福岡
-    # hiroshima | 広島
-    # nagoya | 名古屋
-    # okinawa | 沖縄
+    # 福岡
+    # 広島
+    # 名古屋
+    # 沖縄
     # ...
 
-Finally, we can go a step further and work with regions. Let's get titles of countries in Africa.
+Finally, we can go a step further and work with regions. Let's get subdomains of countries in Africa.
 
 .. code:: python
 
     from craigslist_meta import Region
 
     africa = Region("africa")
-    for country in africa:
-        print(country.title)
+    print(africa.children)
 
 
-    # Egypt
-    # Ethiopia
-    # Ghana
-    # Kenya
-    # ...
+    # ['egypt', 'ethiopia', 'ghana', ... ]
 
 Contribute
 ----------
