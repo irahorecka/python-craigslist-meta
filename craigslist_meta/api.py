@@ -13,11 +13,16 @@ class Area(Base):
         # Area does not have a subclass
         yield from ()
 
-    @staticmethod
-    def all():
+    @classmethod
+    def all(cls):
         """ Unlike Region, Country, and Site, Area does not
         have a subclass - therefore, Area.all() should be invalidated. """
         raise AttributeError("'Area' object has no attribute 'all'")
+
+    @property
+    def children(self):
+        """ Area has no children. """
+        raise AttributeError("'Area' object has no attribute 'children'")
 
 
 class Site(Base):
