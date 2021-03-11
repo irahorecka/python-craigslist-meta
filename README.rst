@@ -13,11 +13,10 @@ Installation
 Examples
 --------
 
-Find cars and trucks for sale from around the world.
+Find cars and trucks for sale from around the world. ``python-craigslist`` is required for this example.
 
 .. code:: python
 
-    #  ``python-craigslist`` is required for this example
     from craigslist import CraigslistForSale
     from craigslist_meta import Site
 
