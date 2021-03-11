@@ -13,10 +13,11 @@ Installation
 Examples
 --------
 
-Find cars and trucks for sale from around the world. (``python-craigslist`` is required for this example)
+Find cars and trucks for sale from around the world.
 
 .. code:: python
 
+    #  ``python-craigslist`` is required for this example
     from craigslist import CraigslistForSale
     from craigslist_meta import Site
 
@@ -29,7 +30,7 @@ Find cars and trucks for sale from around the world. (``python-craigslist`` is r
             auto = CraigslistForSale(site=site.key, category='cta')
             # fetch posts from auto
 
-Let's get titles and urls from areas in the San Francisco Bay Area.
+Let's get titles and urls of areas in the San Francisco Bay Area.
 
 .. code-block:: python
 
@@ -64,7 +65,7 @@ We can also work with countries. Let's get Craigslist urls in Germany.
     # https://dresden.craigslist.org/
     # ...
 
-Let's get url keys and titles from sites in Japan.
+Let's get url keys and titles of sites in Japan.
 
 .. code:: python
 
