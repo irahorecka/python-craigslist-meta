@@ -13,7 +13,7 @@ Installation
 Examples
 --------
 
-Find cars and trucks for sale from around the world. (Note: you must have ``python-craigslist`` installed for this example)
+Find cars and trucks for sale from around the world. (``python-craigslist`` is required for this example)
 
 .. code:: python
 
@@ -47,7 +47,7 @@ Let's get titles and urls from areas in the San Francisco Bay Area.
     # ...
 
 
-We can also work with countries. Let's find site urls in Germany.
+We can also work with countries. Let's get Craigslist urls in Germany.
 
 .. code:: python
 
@@ -81,7 +81,7 @@ Let's get url keys and titles from sites in Japan.
     # okinawa | 沖縄
     # ...
 
-Finally, we can go a step further and work with regions. Let's get titles from countries in Africa.
+Finally, we can go a step further and work with regions. Let's get titles of countries in Africa.
 
 .. code:: python
 
