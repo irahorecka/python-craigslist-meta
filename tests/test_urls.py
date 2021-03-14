@@ -31,6 +31,3 @@ def map_threads(func, iterable):
     with concurrent.futures.ThreadPoolExecutor() as executor:
         result = executor.map(func, iterable)
     return result
-
-
-test_urls()
