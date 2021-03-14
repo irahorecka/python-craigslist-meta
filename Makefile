@@ -1,14 +1,15 @@
 black:
-	black --line-length=100 ./*.py ./craigslist_meta/*.py;
-	rm -rf ./craigslist_meta/__pycache__;
+	find . -type f -name "*.py" | xargs black --line-length=100;
+	find . -type d -name "__pycache__" | xargs rm -r;
 
 flake:
-	flake8 ./*.py ./craigslist_meta/*.py;
+	find . -type f -name "*.py" -a ! -name "metadata.py" | xargs flake8;
 
 pylint:
-	pylint ./*.py ./craigslist_meta/*.py;
+	find . -type f -name "*.py" -a ! -name "metadata.py" | xargs pylint; 
 
 pypi:
 	python ./setup.py sdist;
 	twine upload ./dist/*;
-	rm -rf ./python_craigslist_meta.egg-info ./dist ./build ./craigslist_meta/__pycache__;
+	rm -rf ./python_craigslist_meta.egg-info ./dist ./build;
+	find . -type d -name "__pycache__" | xargs rm -r;
