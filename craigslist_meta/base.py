@@ -101,15 +101,15 @@ def find_url(tree, selector, key):
         """ Recurse tree and yield selected url. """
         for datum, tree in tree.items():
             if tree["selector"] == selector and datum == key:
-                yield build_url(datum, parent)
+                yield build_url(selector, datum, parent)
             else:
                 yield from recurse_url(tree["child"], datum)
 
     return next(recurse_url(tree))
 
 
-def build_url(child_key, parent_key=""):
+def build_url(selector, child_key, parent_key):
     """ Return url string that's conditional to `selector` ("site" or "area"). """
-    if not parent_key:
+    if selector == "site":
         return "https://%s.craigslist.org/" % child_key
     return "https://%s.craigslist.org/%s/" % (parent_key, child_key)
