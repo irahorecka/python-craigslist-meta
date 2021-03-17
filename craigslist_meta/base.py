@@ -27,14 +27,14 @@ class Base:
         """ Yield instance(s) of caller's subclass. Sublass instances are instances
         of caller's children. """
         yield from (
-            self._subclass(child)
-            for child in find_children(CRAIGSLIST, self._selector_key, self._key)
+            self._subclass(child_key)
+            for child_key in find_children(CRAIGSLIST, self._selector_key, self._key)
         )
 
     @classmethod
     def all(cls):
         """ Yield all instances of current class. """
-        yield from (cls(child) for child in find_all(CRAIGSLIST, cls._selector_key))
+        yield from (cls(key) for key in find_all(CRAIGSLIST, cls._selector_key))
 
     @property
     def children(self):
