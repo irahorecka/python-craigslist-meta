@@ -81,17 +81,46 @@ Let's get titles of sites in Japan.
     # 沖縄
     # ...
 
-Finally, we can go a step further and work with regions. Let's get subdomains of countries in Africa.
+Finally, we can go a step further and work with regions.
 
 .. code:: python
 
     from craigslist_meta import Region
 
     africa = Region("africa")
-    print(africa.children)
+    for country in africa:
+        print(country.title)
 
 
-    # ['egypt', 'ethiopia', 'ghana', ... ]
+    # Egypt
+    # Ethiopia
+    # Ghana
+    # Kenya
+    # ...
+
+Get a list of valid constructor keys for Region, Country, and Site using the `keys()` class method.
+
+.. code:: python
+
+    from craigslist_meta import Site
+
+    print(Site.keys())
+
+
+    # ['abbotsford', 'aberdeen', 'abilene', ... ]
+
+Similarly, get a list of children keys for Region, Country, and Site instances using the `children` attribute.
+
+.. code:: python
+
+    from craigslist_meta import Country
+
+    india = Country("india")
+    print(india.children)
+
+
+    # ['ahmedabad', 'bangalore', 'bhubaneswar', ... ]
+
 
 Contribute
 ----------
