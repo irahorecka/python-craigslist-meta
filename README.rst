@@ -98,7 +98,9 @@ Finally, we can go a step further and work with regions.
     # Kenya
     # ...
 
-Get a list of valid constructor keys for Region, Country, and Site using the `keys()` class method.
+----
+
+Get a list of valid keys for Region, Country, and Site by calling the ``keys`` class method.
 
 .. code:: python
 
@@ -109,7 +111,7 @@ Get a list of valid constructor keys for Region, Country, and Site using the `ke
 
     # ['abbotsford', 'aberdeen', 'abilene', ... ]
 
-Similarly, get a list of children keys for Region, Country, and Site instances using the `children` attribute.
+Similarly, get a list of children keys for Region, Country, and Site instances by using the ``children`` attribute.
 
 .. code:: python
 
