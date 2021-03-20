@@ -7,10 +7,17 @@ key = "sfbay"
 
 
 def test_keys(get_keys):
-    """ Test every site key is valid. """
-    site_keys = [site.key for site in Site.all()]
-    expected_keys = list(get_keys(selector))
+    """ Test `keys` method for site returns valid keys for instantiation. """
+    site_keys = Site.keys()
+    expected_keys = sorted(list(set(get_keys(selector))))
     assert site_keys == expected_keys
+
+
+def test_key():
+    """ Test `key` attribute of site instance. """
+    site_key = Site(key).key
+    expected_key = key
+    assert site_key == expected_key
 
 
 def test_children(get_children):

@@ -7,10 +7,17 @@ key = "asia"
 
 
 def test_keys(get_keys):
-    """ Test every region key is valid. """
-    region_keys = [region.key for region in Region.all()]
-    expected_keys = list(get_keys(selector))
+    """ Test `keys` method for region returns valid keys for instantiation. """
+    region_keys = Region.keys()
+    expected_keys = sorted(list(set(get_keys(selector))))
     assert region_keys == expected_keys
+
+
+def test_key():
+    """ Test `key` attribute of region instance. """
+    region_key = Region(key).key
+    expected_key = key
+    assert region_key == expected_key
 
 
 def test_children(get_children):

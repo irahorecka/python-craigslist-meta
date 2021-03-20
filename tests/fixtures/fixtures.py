@@ -7,7 +7,7 @@ from craigslist_meta import base, metadata
 @pytest.fixture
 def get_keys():
     """ Get all keys of a given class. """
-    yield lambda selector: base.find_all(metadata.CRAIGSLIST, selector)
+    yield lambda selector: base.find_keys(metadata.CRAIGSLIST, selector)
 
 
 @pytest.fixture

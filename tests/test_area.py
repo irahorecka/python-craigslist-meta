@@ -16,10 +16,10 @@ def area():
     yield area
 
 
-def test_children_raises(area):
-    """ `children` attribute should raise an exception for Area. """
-    with pytest.raises(AttributeError, match="'Area' object has no attribute 'children'"):
-        area.children
+def test_key(area):
+    """ Test `key` attribute of area instance. """
+    expected_key = area._key
+    assert area_key == expected_key
 
 
 def test_title(area, get_title):
@@ -37,6 +37,18 @@ def test_url(area, get_url):
 
 
 def test_all_raises(area):
-    """ `all` method should raise an exception for Area. """
+    """ `all` class method should raise an exception for Area. """
     with pytest.raises(AttributeError, match="'Area' object has no attribute 'all'"):
         area.all()
+
+
+def test_keys_raises(area):
+    """ `keys` class method should raise an exception for Area. """
+    with pytest.raises(AttributeError, match="'Area' object has no attribute 'keys'"):
+        area.keys()
+
+
+def test_children_raises(area):
+    """ `children` attribute should raise an exception for Area. """
+    with pytest.raises(AttributeError, match="'Area' object has no attribute 'children'"):
+        area.children
