@@ -1,4 +1,4 @@
-from .metadata import CRAIGSLIST, REGIONS, COUNTRIES, SITES, AREAS
+from .metadata import CRAIGSLIST, REGIONS, COUNTRIES, SITES
 
 
 class Base:
@@ -10,13 +10,13 @@ class Base:
         "region": REGIONS,
         "country": COUNTRIES,
         "site": SITES,
-        "area": AREAS,
     }
 
     def __init__(self, key):
         if key not in self._valid_keys[self._selector_key]:
             raise ValueError(
-                "invalid key: '%s'. See list of valid keys using the 'children' attribute" % key
+                "invalid key: '%s'. See list of valid keys using the 'keys' method --> %s.keys()"
+                % (key, self.__class__.__name__)
             )
         self._key = key
 
@@ -34,7 +34,12 @@ class Base:
     @classmethod
     def all(cls):
         """ Yield all instances of current class. """
-        yield from (cls(key) for key in find_all(CRAIGSLIST, cls._selector_key))
+        yield from (cls(key) for key in find_keys(CRAIGSLIST, cls._selector_key))
+
+    @classmethod
+    def keys(cls):
+        """ Return supported keys of class. """
+        return list(find_keys(CRAIGSLIST, cls._selector_key))
 
     @property
     def children(self):
@@ -57,13 +62,17 @@ class Base:
         return find_url(CRAIGSLIST, self._selector_key, self._key)
 
 
-def find_all(tree, selector):
+def find_keys(tree, selector):
     """ Yield all keys that match tree's 'selector'. """
-    for datum, tree in tree.items():
-        if tree["selector"] == selector:
-            yield datum
-        else:
-            yield from find_all(tree["child"], selector)
+
+    def recurse_keys(tree):
+        for datum, tree in tree.items():
+            if tree["selector"] == selector:
+                yield datum
+            else:
+                yield from recurse_keys(tree["child"])
+
+    yield from sorted(list(set(recurse_keys(tree))))
 
 
 def find_children(tree, selector, key):

@@ -7,7 +7,7 @@ class Area(Base):
     _selector_key = "area"
 
     def __init__(self, key):
-        super().__init__(key)
+        self._key = key
 
     def __iter__(self):
         # Area does not have a subclass
@@ -15,9 +15,13 @@ class Area(Base):
 
     @classmethod
     def all(cls):
-        """ Unlike Region, Country, and Site, Area does not
-        have a subclass - therefore, Area.all() should be invalidated. """
+        """ Area does not have a subclass - Area.all() should be invalidated. """
         raise AttributeError("'Area' object has no attribute 'all'")
+
+    @classmethod
+    def keys(cls):
+        """ Area is not a public class - Area.keys() should be invalidated. """
+        raise AttributeError("'Area' object has no attribute 'keys'")
 
     @property
     def children(self):
@@ -55,8 +59,7 @@ class Country(Base):
 
     @property
     def url(self):
-        """ Unlike Site and Area, Country does not have a url -
-        therefore, Country.url attribute should be invalidated. """
+        """ Country does not have a url. """
         raise AttributeError("'Country' object has no attribute 'url'")
 
 
@@ -71,6 +74,5 @@ class Region(Base):
 
     @property
     def url(self):
-        """ Unlike Site and Area, Region does not have a url -
-        therefore, Region.url attribute should be invalidated. """
+        """ Region does not have a url. """
         raise AttributeError("'Region' object has no attribute 'url'")
