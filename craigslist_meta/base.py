@@ -67,6 +67,7 @@ def find_keys(tree, selector):
 
     def recurse_keys(tree):
         for datum, tree in tree.items():
+            """ Recurse tree and yield keys in given selector. """
             if tree["selector"] == selector:
                 yield datum
             else:
@@ -79,7 +80,7 @@ def find_children(tree, selector, key):
     """ Yield all unique children keys that match tree's 'selector'. """
 
     def recurse_children(tree):
-        """ Recurse tree and yield selected children. """
+        """ Recurse tree and yield selected datum's children. """
         for datum, tree in tree.items():
             if tree["selector"] == selector and datum == key:
                 yield from tree["child"].keys()
@@ -93,7 +94,7 @@ def find_title(tree, selector, key):
     """ Return "title" key value that matches tree's "selector" and datum. """
 
     def recurse_title(tree):
-        """ Recurse tree and yield selected title. """
+        """ Recurse tree and yield selected datum's title. """
         for datum, tree in tree.items():
             if tree["selector"] == selector and datum == key:
                 yield tree["title"]
@@ -107,7 +108,7 @@ def find_url(tree, selector, key):
     """ Return url that matches tree's `selector` and datum. """
 
     def recurse_url(tree, parent=""):
-        """ Recurse tree and yield selected url. """
+        """ Recurse tree and yield selected datum's url. """
         for datum, tree in tree.items():
             if tree["selector"] == selector and datum == key:
                 yield build_url(selector, datum, parent)
