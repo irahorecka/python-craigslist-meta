@@ -16,7 +16,7 @@ def test_urls():
 def get_urls():
     """ Get every Craigslist url using craigslist_meta API. """
     all_urls = []
-    for site in Site.all():
+    for site in Site.get_all():
         if site.has_area():
             for area in site:
                 all_urls.append(area.url)

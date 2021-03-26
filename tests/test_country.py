@@ -8,7 +8,7 @@ key = "germany"
 
 def test_keys(get_keys):
     """ Test `keys` method for country returns valid keys for instantiation. """
-    country_keys = Country.keys()
+    country_keys = Country.get_keys()
     expected_keys = sorted(list(set(get_keys(selector))))
     assert country_keys == expected_keys
 
@@ -42,7 +42,7 @@ def test_url_raises():
 
 def test_all():
     """ Test `all` method yields all country instances. """
-    country_instances = [country for country in Country.all()]
+    country_instances = [country for country in Country.get_all()]
     assert all(isinstance(item, Country) for item in country_instances)
 
 

@@ -39,13 +39,13 @@ def test_url(area, get_url):
 def test_all_raises(area):
     """ `all` class method should raise an exception for Area. """
     with pytest.raises(AttributeError, match="'Area' object has no attribute 'all'"):
-        area.all()
+        area.get_all()
 
 
 def test_keys_raises(area):
     """ `keys` class method should raise an exception for Area. """
     with pytest.raises(AttributeError, match="'Area' object has no attribute 'keys'"):
-        area.keys()
+        area.get_keys()
 
 
 def test_children_raises(area):

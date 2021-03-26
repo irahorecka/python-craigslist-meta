@@ -8,7 +8,7 @@ key = "sfbay"
 
 def test_keys(get_keys):
     """ Test `keys` method for site returns valid keys for instantiation. """
-    site_keys = Site.keys()
+    site_keys = Site.get_keys()
     expected_keys = sorted(list(set(get_keys(selector))))
     assert site_keys == expected_keys
 
@@ -54,7 +54,7 @@ def test_has_area():
 
 def test_all():
     """ Test `all` method yields all site instances. """
-    site_instances = [site for site in Site.all()]
+    site_instances = [site for site in Site.get_all()]
     assert all(isinstance(item, Site) for item in site_instances)
 
 
