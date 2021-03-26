@@ -14,13 +14,13 @@ class Area(Base):
         yield from ()
 
     @classmethod
-    def all(cls):
-        """ Area does not have a subclass - Area.all() should be invalidated. """
+    def get_all(cls):
+        """ Area does not have a subclass - Area.get_all() should be invalidated. """
         raise AttributeError("'Area' object has no attribute 'all'")
 
     @classmethod
-    def keys(cls):
-        """ Area is not a public class - Area.keys() should be invalidated. """
+    def get_keys(cls):
+        """ Area is not a public class - Area.get_keys() should be invalidated. """
         raise AttributeError("'Area' object has no attribute 'keys'")
 
     @property

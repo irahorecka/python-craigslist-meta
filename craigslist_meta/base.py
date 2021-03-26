@@ -15,7 +15,7 @@ class Base:
     def __init__(self, key):
         if key not in self._valid_keys[self._selector_key]:
             raise ValueError(
-                "invalid key: '%s'. See list of valid keys using the 'keys' method --> %s.keys()"
+                "invalid key: '%s'. See list of valid keys using the 'get_keys' method --> %s.get_keys()"
                 % (key, self.__class__.__name__)
             )
         self._key = key
@@ -32,12 +32,12 @@ class Base:
         )
 
     @classmethod
-    def all(cls):
+    def get_all(cls):
         """ Yield all instances of current class. """
         yield from (cls(key) for key in find_keys(CRAIGSLIST, cls._selector_key))
 
     @classmethod
-    def keys(cls):
+    def get_keys(cls):
         """ Return supported keys of class. """
         return list(find_keys(CRAIGSLIST, cls._selector_key))
 
