@@ -17,5 +17,4 @@ clean: ## remove package distribution files and pycache
 
 upload: ## upload package distribution files to pypi
 	twine upload ./dist/*;
-	rm -rf ./python_craigslist_meta.egg-info ./dist ./build;
-	find . -type d -name "__pycache__" | xargs rm -r;
+	make clean;
