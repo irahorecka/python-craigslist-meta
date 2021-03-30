@@ -20,7 +20,7 @@ Let's find every car and truck for sale around the world. ``python-craigslist`` 
     from craigslist import CraigslistForSale
     from craigslist_meta import Site
 
-    for site in Site.get_all():
+    for site in Site.all:
         if site.has_area():
             for area in site:
                 auto = CraigslistForSale(site=site.key, area=area.key, category='cta')
@@ -106,7 +106,7 @@ Get a list of valid keys for Region, Country, and Site by calling the ``keys`` c
 
     from craigslist_meta import Site
 
-    print(Site.get_keys())
+    print(Site.keys)
 
 
     # ['abbotsford', 'aberdeen', 'abilene', ... ]
