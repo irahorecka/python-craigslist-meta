@@ -100,7 +100,7 @@ Finally, we can go a step further and work with regions.
 
 ----
 
-Get a list of valid keys for Region, Country, and Site by calling the ``keys`` class method.
+Get a list of valid keys for Region, Country, and Site by calling the ``keys`` class property.
 
 .. code:: python
 
