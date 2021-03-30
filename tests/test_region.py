@@ -8,7 +8,7 @@ key = "asia"
 
 def test_keys(get_keys):
     """ Test `keys` method for region returns valid keys for instantiation. """
-    region_keys = Region.get_keys()
+    region_keys = Region.keys
     expected_keys = sorted(list(set(get_keys(selector))))
     assert region_keys == expected_keys
 
@@ -42,7 +42,7 @@ def test_url_raises():
 
 def test_all():
     """ Test `all` method yields all region instances. """
-    region_instances = [region for region in Region.get_all()]
+    region_instances = [region for region in Region.all]
     assert all(isinstance(item, Region) for item in region_instances)
 
 
