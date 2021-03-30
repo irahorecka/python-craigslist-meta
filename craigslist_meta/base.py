@@ -1,6 +1,13 @@
 from .metadata import CRAIGSLIST, REGIONS, COUNTRIES, SITES
 
 
+class classproperty(property):
+    """ Allow property attribute for class methods. """
+
+    def __get__(self, obj, objtype=None):
+        return super(classproperty, self).__get__(objtype)
+
+
 class Base:
     """ Base class for Region, Country, Site, and Area in api.py. """
 
@@ -31,13 +38,13 @@ class Base:
             for child_key in find_children(CRAIGSLIST, self._selector_key, self._key)
         )
 
-    @classmethod
-    def get_all(cls):
+    @classproperty
+    def all(cls):
         """ Yield all instances of current class. """
         yield from (cls(key) for key in find_keys(CRAIGSLIST, cls._selector_key))
 
-    @classmethod
-    def get_keys(cls):
+    @classproperty
+    def keys(cls):
         """ Return supported keys of class. """
         return list(find_keys(CRAIGSLIST, cls._selector_key))
 

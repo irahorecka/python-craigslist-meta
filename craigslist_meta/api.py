@@ -1,4 +1,4 @@
-from .base import Base
+from .base import Base, classproperty
 
 
 class Area(Base):
@@ -13,13 +13,13 @@ class Area(Base):
         # Area does not have a subclass
         yield from ()
 
-    @classmethod
-    def get_all(cls):
+    @classproperty
+    def all(cls):
         """ Area does not have a subclass - Area.get_all() should be invalidated. """
         raise AttributeError("'Area' object has no attribute 'all'")
 
-    @classmethod
-    def get_keys(cls):
+    @classproperty
+    def keys(cls):
         """ Area is not a public class - Area.get_keys() should be invalidated. """
         raise AttributeError("'Area' object has no attribute 'keys'")
 
