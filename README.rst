@@ -1,7 +1,8 @@
 python-craigslist-meta
 ======================
 
-Streamline your Craigslist queries with an API that traverses url endpoints. This library goes hand-in-hand with `python-craigslist <https://github.com/juliomalegria/python-craigslist>`__.
+Streamline your Craigslist queries with an API that traverses url endpoints.
+This library serves as an addition to `pycraigslist <https://github.com/irahorecka/pycraigslist>`__ and `python-craigslist <https://github.com/juliomalegria/python-craigslist>`__.
 
 Installation
 ------------
@@ -13,7 +14,26 @@ Installation
 Examples
 --------
 
-Let's find every car and truck for sale around the world. ``python-craigslist`` is required for this example.
+Let's find every car and truck for sale around the world. ``pycraigslist`` is required for this example.
+
+.. code:: python
+
+    import pycraigslist
+    from craigslist_meta import Site
+
+    for site in Site.all:
+        if site.has_area():
+            for area in site:
+                all_autos = pycraigslist.forsale.cta(site=site.key, area=area.key)
+                for auto in all_autos.search():
+                    print(auto)
+        else:
+            all_autos = pycraigslist.forsale.cta(site=site.key)
+            for auto in all_autos.search():
+                print(auto)
+
+
+We could run the same search using ``python-craigslist``.
 
 .. code:: python
 
@@ -23,11 +43,13 @@ Let's find every car and truck for sale around the world. ``python-craigslist`` 
     for site in Site.all:
         if site.has_area():
             for area in site:
-                auto = CraigslistForSale(site=site.key, area=area.key, category='cta')
-                # fetch posts from auto
+                all_autos = CraigslistForSale(site=site.key, area=area.key, category='cta')
+                for auto in all_autos.get_results():
+                    print(auto)
         else:
-            auto = CraigslistForSale(site=site.key, category='cta')
-            # fetch posts from auto
+            all_autos = CraigslistForSale(site=site.key, category='cta')
+            for auto in all_autos.get_results():
+                    print(auto)
 
 Let's get Craigslist urls of areas in the San Francisco Bay Area.
 
