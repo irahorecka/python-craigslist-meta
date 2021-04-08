@@ -1,6 +1,13 @@
 python-craigslist-meta
 ======================
 
+|PyPI version fury.io| |PyPI pyversions|
+
+.. |PyPI version fury.io| image:: https://badge.fury.io/py/python-craigslist-meta.svg
+    :target: https://pypi.python.org/pypi/python-craigslist-meta
+.. |PyPI pyversions| image:: https://img.shields.io/pypi/pyversions/python-craigslist-meta.svg
+    :target: https://pypi.python.org/pypi/python-craigslist-meta/
+
 Streamline your Craigslist queries with an API that traverses url endpoints.
 This library serves as an addition to `pycraigslist <https://github.com/irahorecka/pycraigslist>`__ and `python-craigslist <https://github.com/juliomalegria/python-craigslist>`__.
 
