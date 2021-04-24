@@ -2,14 +2,14 @@ from .metadata import CRAIGSLIST, REGIONS, COUNTRIES, SITES
 
 
 class classproperty(property):
-    """ Allow property attribute for class methods. """
+    """Allow property attribute for class methods."""
 
     def __get__(self, obj, objtype=None):
         return super(classproperty, self).__get__(objtype)
 
 
 class Base:
-    """ Base class for Region, Country, Site, and Area in api.py. """
+    """Base class for Region, Country, Site, and Area in api.py."""
 
     _selector_key = ""
     _subclass = None
@@ -31,50 +31,50 @@ class Base:
         return "%s('%s')" % (self.__class__.__name__, self._key)
 
     def __iter__(self):
-        """ Yield instance(s) of caller's subclass. Sublass instances are instances
-        of caller's children. """
+        """Yield instance(s) of caller's subclass. Sublass instances are instances
+        of caller's children."""
         yield from (
             self._subclass(child_key)
             for child_key in find_children(CRAIGSLIST, self._selector_key, self._key)
         )
 
-    @classproperty
+    @classmethod
     def all(cls):
-        """ Yield all instances of current class. """
+        """Yield all instances of current class."""
         yield from (cls(key) for key in find_keys(CRAIGSLIST, cls._selector_key))
 
     @classproperty
     def keys(cls):
-        """ Return supported keys of class. """
+        """Return supported keys of class."""
         return list(find_keys(CRAIGSLIST, cls._selector_key))
 
     @property
     def children(self):
-        """ Return children keys of instance. """
+        """Return children keys of instance."""
         return list(find_children(CRAIGSLIST, self._selector_key, self._key))
 
     @property
     def key(self):
-        """ Return key of instance. """
+        """Return key of instance."""
         return self._key
 
     @property
     def title(self):
-        """ Return title of instance. """
+        """Return title of instance."""
         return find_title(CRAIGSLIST, self._selector_key, self._key)
 
     @property
     def url(self):
-        """ Return url of instance. """
+        """Return url of instance."""
         return find_url(CRAIGSLIST, self._selector_key, self._key)
 
 
 def find_keys(tree, selector):
-    """ Yield all keys that match tree's 'selector'. """
+    """Yield all keys that match tree's 'selector'."""
 
     def recurse_keys(tree):
         for datum, tree in tree.items():
-            """ Recurse tree and yield keys in given selector. """
+            """Recurse tree and yield keys in given selector."""
             if tree["selector"] == selector:
                 yield datum
             else:
@@ -84,10 +84,10 @@ def find_keys(tree, selector):
 
 
 def find_children(tree, selector, key):
-    """ Yield all unique children keys that match tree's 'selector'. """
+    """Yield all unique children keys that match tree's 'selector'."""
 
     def recurse_children(tree):
-        """ Recurse tree and yield selected datum's children. """
+        """Recurse tree and yield selected datum's children."""
         for datum, tree in tree.items():
             if tree["selector"] == selector and datum == key:
                 yield from tree["child"].keys()
@@ -98,10 +98,10 @@ def find_children(tree, selector, key):
 
 
 def find_title(tree, selector, key):
-    """ Return "title" key value that matches tree's "selector" and datum. """
+    """Return "title" key value that matches tree's "selector" and datum."""
 
     def recurse_title(tree):
-        """ Recurse tree and yield selected datum's title. """
+        """Recurse tree and yield selected datum's title."""
         for datum, tree in tree.items():
             if tree["selector"] == selector and datum == key:
                 yield tree["title"]
@@ -112,10 +112,10 @@ def find_title(tree, selector, key):
 
 
 def find_url(tree, selector, key):
-    """ Return url that matches tree's `selector` and datum. """
+    """Return url that matches tree's `selector` and datum."""
 
     def recurse_url(tree, parent=""):
-        """ Recurse tree and yield selected datum's url. """
+        """Recurse tree and yield selected datum's url."""
         for datum, tree in tree.items():
             if tree["selector"] == selector and datum == key:
                 yield build_url(selector, datum, parent)
@@ -126,7 +126,7 @@ def find_url(tree, selector, key):
 
 
 def build_url(selector, child_key, parent_key):
-    """ Return url string that's conditional to `selector` ("site" or "area"). """
+    """Return url string that's conditional to `selector` ("site" or "area")."""
     if selector == "site":
         return "https://%s.craigslist.org/" % child_key
     return "https://%s.craigslist.org/%s/" % (parent_key, child_key)

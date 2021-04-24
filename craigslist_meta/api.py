@@ -2,7 +2,7 @@ from .base import Base, classproperty
 
 
 class Area(Base):
-    """ Parse Craigslist areas. """
+    """Parse Craigslist areas."""
 
     _selector_key = "area"
 
@@ -15,22 +15,22 @@ class Area(Base):
 
     @classproperty
     def all(cls):
-        """ Area does not have a subclass - Area.get_all() should be invalidated. """
+        """Area does not have a subclass - Area.get_all() should be invalidated."""
         raise AttributeError("'Area' object has no attribute 'all'")
 
     @classproperty
     def keys(cls):
-        """ Area is not a public class - Area.get_keys() should be invalidated. """
+        """Area is not a public class - Area.get_keys() should be invalidated."""
         raise AttributeError("'Area' object has no attribute 'keys'")
 
     @property
     def children(self):
-        """ Area has no children. """
+        """Area has no children."""
         raise AttributeError("'Area' object has no attribute 'children'")
 
 
 class Site(Base):
-    """ Parse Craiglist sites. """
+    """Parse Craiglist sites."""
 
     _selector_key = "site"
     _subclass = Area
@@ -39,8 +39,8 @@ class Site(Base):
         super().__init__(key)
 
     def has_area(self):
-        """ Return true if site has areas. For example, Site('sfbay') has areas,
-        Site('monterey') does not. """
+        """Return true if site has areas. For example, Site('sfbay') has areas,
+        Site('monterey') does not."""
         try:
             next(self.__iter__())
             return True
@@ -49,7 +49,7 @@ class Site(Base):
 
 
 class Country(Base):
-    """ Parse Craiglist countries. """
+    """Parse Craiglist countries."""
 
     _selector_key = "country"
     _subclass = Site
@@ -59,12 +59,12 @@ class Country(Base):
 
     @property
     def url(self):
-        """ Country does not have a url. """
+        """Country does not have a url."""
         raise AttributeError("'Country' object has no attribute 'url'")
 
 
 class Region(Base):
-    """ Parse Craiglist regions. """
+    """Parse Craiglist regions."""
 
     _selector_key = "region"
     _subclass = Country
@@ -74,5 +74,5 @@ class Region(Base):
 
     @property
     def url(self):
-        """ Region does not have a url. """
+        """Region does not have a url."""
         raise AttributeError("'Region' object has no attribute 'url'")
