@@ -28,7 +28,7 @@ Let's find every car and truck for sale around the world. ``pycraigslist`` is re
     import pycraigslist
     from craigslist_meta import Site
 
-    for site in Site.all:
+    for site in Site.all():
         if site.has_area():
             for area in site:
                 all_autos = pycraigslist.forsale.cta(site=site.key, area=area.key)
@@ -47,7 +47,7 @@ We could run the same search using ``python-craigslist``.
     from craigslist import CraigslistForSale
     from craigslist_meta import Site
 
-    for site in Site.all:
+    for site in Site.all():
         if site.has_area():
             for area in site:
                 all_autos = CraigslistForSale(site=site.key, area=area.key, category='cta')
