@@ -158,7 +158,7 @@ Get a list of valid keys for Region, Country, and Site by using the ``keys`` cla
 Contribute
 ----------
 
-- `Issue Tracker <https://github.com/irahorecka/python-craigslist-meta/issues>`__
+- `Issues Tracker <https://github.com/irahorecka/python-craigslist-meta/issues>`__
 - `Source Code <https://github.com/irahorecka/python-craigslist-meta/tree/master/craigslist_meta>`__
 
 Support
