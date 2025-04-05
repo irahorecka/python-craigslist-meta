@@ -1,7 +1,7 @@
 python-craigslist-meta
 ======================
 
-|PyPI version fury.io| |PyPI pyversions|
+|PyPI version fury.io| |PyPI pyversions| |tests|
 
 .. |PyPI version fury.io| image:: https://badge.fury.io/py/python-craigslist-meta.svg
     :target: https://pypi.python.org/pypi/python-craigslist-meta
