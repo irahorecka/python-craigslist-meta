@@ -1,3 +1,8 @@
+"""
+craigslist_meta/api
+~~~~~~~~~~~~~~~~~~~
+"""
+
 from .base import Base, classproperty
 
 

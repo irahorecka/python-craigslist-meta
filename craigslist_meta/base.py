@@ -1,3 +1,8 @@
+"""
+craigslist_meta/base
+~~~~~~~~~~~~~~~~~~~~
+"""
+
 from .metadata import CRAIGSLIST, REGIONS, COUNTRIES, SITES
 
 

@@ -1,3 +1,8 @@
+"""
+tests/test_area
+~~~~~~~~~~~~~~~
+"""
+
 import pytest
 from fixtures import get_title, get_url
 from craigslist_meta import Site

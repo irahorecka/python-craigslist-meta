@@ -1,3 +1,8 @@
+"""
+tests/test_region
+~~~~~~~~~~~~~~~~~
+"""
+
 import pytest
 from fixtures import get_keys, get_children, get_title
 from craigslist_meta import Region

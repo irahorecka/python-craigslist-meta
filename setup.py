@@ -1,6 +1,11 @@
-import craigslist_meta
-from setuptools import setup, find_packages
+"""
+setup
+~~~~~
+"""
 
+from setuptools import find_packages, setup
+
+import craigslist_meta
 
 _classifiers = [
     "Programming Language :: Python :: 3.5",

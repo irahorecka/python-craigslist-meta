@@ -1,3 +1,8 @@
+"""
+craigslist_meta
+~~~~~~~~~~~~~~~
+"""
+
 from .api import (
     Region,
     Country,
