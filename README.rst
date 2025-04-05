@@ -7,8 +7,8 @@ python-craigslist-meta
     :target: https://pypi.python.org/pypi/python-craigslist-meta
 .. |PyPI pyversions| image:: https://img.shields.io/pypi/pyversions/python-craigslist-meta.svg
     :target: https://pypi.python.org/pypi/python-craigslist-meta/
-.. |tests| image:: https://github.com/<username>/<repo>/workflows/tests/badge.svg
-    :target: https://github.com/<username>/<repo>/actions
+.. |tests| image:: https://github.com/irahorecka/python-craigslist-meta/workflows/tests/badge.svg
+    :target: https://github.com/irahorecka/python-craigslist-meta/actions
 
 Streamline your Craigslist queries with an API that traverses url endpoints.
 This library serves as an addition to `pycraigslist <https://github.com/irahorecka/pycraigslist>`__ and `python-craigslist <https://github.com/juliomalegria/python-craigslist>`__.
